@@ -1,0 +1,2235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MmushroomM • Geometry Dash Showcase</title>
+  
+  <!-- Fonts: Space Grotesk (Titles), Geist Mono (Readouts), Plus Jakarta Sans (UI body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    @font-face {
+      font-family: 'Pusab';
+      src: url('assets/fonts/Pusab.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --bg: #07090e;
+      --bg-surface: #0e121a;
+      --bg-surface-elevated: #141b26;
+      --bg-surface-high: #1c2536;
+      
+      --border-subtle: rgba(255, 255, 255, 0.06);
+      --border-card: rgba(255, 255, 255, 0.09);
+      --border-hover: rgba(255, 51, 68, 0.4);
+
+      /* Player Color Signature: Pure Red & Pure White */
+      --gd-red: #ff2a3d;
+      --gd-red-glow: rgba(255, 42, 61, 0.22);
+      --gd-red-dim: rgba(255, 42, 61, 0.12);
+      
+      --gd-purple: #c084fc;
+      --gd-purple-glow: rgba(192, 132, 252, 0.25);
+      
+      --gd-gold: #fbbf24;
+      --gd-cyan: #38bdf8;
+      --gd-green: #22c55e;
+      --gd-green-dim: rgba(34, 197, 94, 0.12);
+
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+
+      --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      min-height: 100vh;
+      line-height: 1.5;
+      padding: 32px 20px 80px;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 50% -10%, rgba(255, 42, 61, 0.12) 0%, transparent 60%),
+        radial-gradient(circle at 85% 45%, rgba(192, 132, 252, 0.06) 0%, transparent 50%),
+        linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+      background-attachment: fixed;
+    }
+
+    .container {
+      max-width: 1020px;
+      margin: 0 auto;
+    }
+
+    /* TOP DETACHED ISLAND NAVBAR */
+    .nav-wrapper {
+      margin-bottom: 32px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .nav-island {
+      background: rgba(14, 18, 26, 0.75);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-card);
+      border-radius: 9999px;
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .brand-cube {
+      width: 26px;
+      height: 26px;
+      object-fit: contain;
+    }
+
+    .brand-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: -0.01em;
+    }
+
+    .nav-status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--gd-green);
+      background: var(--gd-green-dim);
+      border: 1px solid rgba(34, 197, 94, 0.25);
+      padding: 3px 10px;
+      border-radius: 9999px;
+    }
+
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--gd-green);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--gd-green);
+      animation: pulse-dot 2s infinite ease-in-out;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    /* DOUBLE-BEZEL HERO PROFILE */
+    .hero-shell {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-card);
+      border-radius: 28px;
+      padding: 6px;
+      margin-bottom: 28px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-core {
+      background: radial-gradient(circle at 10% 10%, rgba(255, 42, 61, 0.08) 0%, var(--bg-surface) 60%);
+      border: 1px solid var(--border-card);
+      border-radius: 22px;
+      padding: 36px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 36px;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-core::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gd-red) 0%, rgba(255, 42, 61, 0.3) 50%, transparent 100%);
+    }
+
+    .avatar-shell {
+      width: 124px;
+      height: 124px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-card);
+      border-radius: 24px;
+      padding: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .avatar-core {
+      width: 100%;
+      height: 100%;
+      background: var(--bg-surface-high);
+      border: 1px solid rgba(255, 42, 61, 0.3);
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 30px var(--gd-red-glow), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+      transition: transform 0.4s var(--ease-out-expo);
+    }
+
+    .avatar-core:hover {
+      transform: scale(1.04) rotate(-2deg);
+    }
+
+    .avatar-core img {
+      width: 82px;
+      height: 82px;
+      object-fit: contain;
+    }
+
+    .hero-info h1 {
+      font-family: 'Pusab', 'Space Grotesk', sans-serif;
+      font-size: 2.6rem;
+      letter-spacing: 0.02em;
+      line-height: 1.1;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .hero-meta-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+      align-items: center;
+    }
+
+    .meta-tag {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      padding: 3px 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .meta-tag.interactive {
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .meta-tag.interactive:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .meta-tag.rank {
+      color: var(--gd-green);
+      background: var(--gd-green-dim);
+      border-color: rgba(34, 197, 94, 0.25);
+      font-weight: 600;
+    }
+
+    .hero-desc {
+      font-size: 0.96rem;
+      color: var(--text-muted);
+      max-width: 650px;
+      line-height: 1.6;
+    }
+
+    .hero-desc strong {
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* BENTO STATS GRID */
+    .bento-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 12px;
+      margin-bottom: 48px;
+    }
+
+    .bento-card-shell {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-subtle);
+      border-radius: 18px;
+      padding: 4px;
+      transition: transform 0.25s var(--ease-out-expo), border-color 0.25s ease;
+    }
+
+    .bento-card-shell:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 255, 255, 0.18);
+    }
+
+    .bento-card-core {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-card);
+      border-radius: 14px;
+      padding: 16px 14px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      height: 100%;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.05);
+    }
+
+    .bento-icon-box {
+      width: 44px;
+      height: 44px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .bento-icon-box img {
+      max-width: 38px;
+      max-height: 38px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.6));
+    }
+
+    .bento-metric-val {
+      font-family: 'Geist Mono', monospace;
+      font-size: 1.35rem;
+      font-weight: 700;
+      line-height: 1.1;
+      color: #fff;
+    }
+
+    .bento-metric-label {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      font-weight: 500;
+      margin-top: 2px;
+      white-space: nowrap;
+    }
+
+    /* SECTION HEADERS */
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 20px;
+    }
+
+    .section-eyebrow {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--gd-red);
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+
+    .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #fff;
+    }
+
+    .section-subtitle {
+      font-size: 0.82rem;
+      color: var(--text-dim);
+    }
+
+    /* HARDEST SPOTLIGHT CARD */
+    .hardest-shell {
+      background: rgba(192, 132, 252, 0.03);
+      border: 1px solid rgba(192, 132, 252, 0.2);
+      border-radius: 28px;
+      padding: 6px;
+      margin-bottom: 52px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .hardest-core {
+      background: var(--bg-surface);
+      border: 1px solid rgba(192, 132, 252, 0.25);
+      border-radius: 22px;
+      padding: 34px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 32px;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hardest-core::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: 
+        radial-gradient(circle at 18% 25%, rgba(192, 132, 252, 0.16) 0%, rgba(14, 18, 26, 0.85) 55%, rgba(7, 9, 14, 0.96) 100%),
+        url('assets/levels/windy-landscape.jpg');
+      background-size: cover;
+      background-position: center 35%;
+      filter: blur(1.5px) brightness(0.38) saturate(1.2);
+      opacity: 0.45;
+      transform: scale(1.02);
+      transition: transform 0.45s var(--ease-out-expo), opacity 0.45s ease, filter 0.45s ease;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .hardest-shell:hover .hardest-core::before {
+      transform: scale(1.05);
+      opacity: 0.65;
+      filter: blur(0px) brightness(0.5) saturate(1.3);
+    }
+
+    .hardest-core > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hardest-face-frame {
+      width: 104px;
+      height: 104px;
+      background: var(--bg-surface-high);
+      border: 1px solid rgba(192, 132, 252, 0.3);
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 35px var(--gd-purple-glow), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+      flex-shrink: 0;
+    }
+
+    .hardest-face-frame img {
+      width: 74px;
+      height: 74px;
+      object-fit: contain;
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.7));
+    }
+
+    .hardest-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--gd-purple);
+      background: rgba(192, 132, 252, 0.12);
+      border: 1px solid rgba(192, 132, 252, 0.3);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .hardest-badge img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+    }
+
+    .hardest-title-text {
+      font-family: 'Pusab', 'Space Grotesk', sans-serif;
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 4px;
+      letter-spacing: 0.02em;
+    }
+
+    .hardest-author {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .progress-track {
+      width: 100%;
+      max-width: 460px;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 9999px;
+      overflow: hidden;
+      margin-bottom: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .progress-fill {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, #15803d, #22c55e);
+      border-radius: 9999px;
+      box-shadow: 0 0 10px rgba(34, 197, 94, 0.5);
+    }
+
+    .hardest-quote {
+      font-size: 0.88rem;
+      color: #cbd5e1;
+      font-style: italic;
+      line-height: 1.5;
+      background: rgba(0, 0, 0, 0.35);
+      border-left: 3px solid var(--gd-purple);
+      padding: 10px 14px;
+      border-radius: 0 10px 10px 0;
+      max-width: 520px;
+    }
+
+    .hardest-stat-box {
+      background: var(--bg-surface-high);
+      border: 1px solid rgba(192, 132, 252, 0.25);
+      border-radius: 18px;
+      padding: 22px 28px;
+      text-align: center;
+      min-width: 145px;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .hardest-attempts-val {
+      font-family: 'Geist Mono', monospace;
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .hardest-attempts-sub {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--gd-purple);
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    /* DEMON VAULT GRID */
+    .vault-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+      margin-bottom: 56px;
+    }
+
+    .vault-card-shell {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      padding: 4px;
+      transition: transform 0.25s var(--ease-out-expo), border-color 0.25s ease;
+    }
+
+    .vault-card-shell:hover {
+      transform: translateY(-3px);
+      border-color: var(--card-accent-hover, rgba(255, 42, 61, 0.35));
+    }
+
+    .vault-card-core {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-card);
+      border-radius: 16px;
+      padding: 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      height: 100%;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .vault-card-core::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(135deg, rgba(14, 18, 26, 0.9) 0%, rgba(14, 18, 26, 0.72) 50%, rgba(14, 18, 26, 0.93) 100%),
+        var(--card-bg, none);
+      background-size: cover;
+      background-position: center;
+      filter: blur(1.2px) brightness(0.42) saturate(1.15);
+      opacity: 0.42;
+      transform: scale(1.02);
+      transition: transform 0.4s var(--ease-out-expo), opacity 0.4s ease, filter 0.4s ease;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .vault-card-shell:hover .vault-card-core::before {
+      transform: scale(1.07);
+      opacity: 0.68;
+      filter: blur(0px) brightness(0.55) saturate(1.25);
+    }
+
+    .vault-face-box,
+    .vault-card-body {
+      position: relative;
+      z-index: 1;
+    }
+
+    .vault-face-box {
+      width: 52px;
+      height: 52px;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--card-accent-border, var(--border-card));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 0 16px var(--card-accent-dim, transparent);
+      transition: all 0.25s ease;
+    }
+
+    .vault-face-box img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.7));
+    }
+
+    .vault-card-body {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .vault-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2px;
+    }
+
+    .vault-level-name {
+      font-family: 'Pusab', 'Space Grotesk', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .vault-tag {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.68rem;
+      font-weight: 600;
+      color: var(--card-accent, var(--gd-red));
+      background: var(--card-accent-dim, var(--gd-red-dim));
+      border: 1px solid var(--card-accent-border, rgba(255, 42, 61, 0.25));
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+
+    .vault-author {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      margin-bottom: 8px;
+    }
+
+    .vault-note {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+      margin-bottom: 14px;
+    }
+
+    .vault-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.78rem;
+    }
+
+    .vault-attempts {
+      color: var(--gd-gold);
+      font-weight: 600;
+    }
+
+    .vault-status-pill {
+      color: var(--gd-green);
+      background: var(--gd-green-dim);
+      border: 1px solid rgba(34, 197, 94, 0.25);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+
+    /* ICON KIT ARMORY */
+    .armory-shell {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-card);
+      border-radius: 28px;
+      padding: 6px;
+      margin-bottom: 56px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .armory-core {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-card);
+      border-radius: 22px;
+      padding: 28px;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.05);
+    }
+
+    .armory-meta-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 22px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .palette-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .swatch {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .swatch.red { background: #ff0000; box-shadow: 0 0 6px rgba(255, 0, 0, 0.5); }
+    .swatch.white { background: #ffffff; box-shadow: 0 0 6px rgba(255, 255, 255, 0.5); }
+
+    .armory-grid {
+      display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      gap: 10px;
+    }
+
+    .armory-card-shell {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 3px;
+      transition: transform 0.2s var(--ease-out-expo), border-color 0.2s ease;
+    }
+
+    .armory-card-shell:hover {
+      transform: translateY(-3px);
+      border-color: var(--border-hover);
+    }
+
+    .armory-card-core {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-card);
+      border-radius: 13px;
+      padding: 14px 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      height: 100%;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.04);
+    }
+
+    .armory-sprite-box {
+      width: 64px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .armory-sprite-box img {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      display: block;
+      transition: transform 0.25s var(--ease-out-expo);
+    }
+
+    .armory-card-shell:hover .armory-sprite-box img {
+      transform: scale(1.1);
+    }
+
+    .armory-caption {
+      text-align: center;
+    }
+
+    .armory-form-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+
+    .armory-form-id {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.68rem;
+      color: var(--text-dim);
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    /* TOAST FEEDBACK */
+    #copy-toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--bg-surface-high);
+      border: 1px solid var(--gd-green);
+      color: #fff;
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.8rem;
+      padding: 10px 18px;
+      border-radius: 9999px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(34, 197, 94, 0.3);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: all 0.3s var(--ease-out-expo);
+      pointer-events: none;
+      z-index: 100;
+    }
+
+    #copy-toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+
+
+
+    /* ARCHIVE TRIGGER BUTTON */
+    .vault-archive-trigger-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -24px;
+      margin-bottom: 56px;
+    }
+
+    .vault-archive-btn {
+      background: rgba(14, 18, 26, 0.85);
+      border: 1px solid var(--border-card);
+      border-radius: 9999px;
+      padding: 12px 28px;
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      color: #fff;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+      transition: all 0.25s var(--ease-out-expo);
+    }
+
+    .vault-archive-btn:hover {
+      border-color: var(--gd-red);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 35px rgba(255, 42, 61, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    }
+
+    .vault-archive-badge {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--gd-green);
+      background: var(--gd-green-dim);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-weight: 600;
+    }
+
+    /* ARCHIVE MODAL */
+    .archive-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(4, 6, 10, 0.82);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s var(--ease-out-expo);
+    }
+
+    .archive-overlay.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .archive-shell {
+      width: 100%;
+      max-width: 860px;
+      max-height: 88vh;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-card);
+      border-radius: 26px;
+      padding: 6px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
+      transform: scale(0.96) translateY(12px);
+      transition: transform 0.3s var(--ease-out-expo);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .archive-overlay.open .archive-shell {
+      transform: scale(1) translateY(0);
+    }
+
+    .archive-core {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-card);
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      max-height: calc(88vh - 12px);
+    }
+
+    .archive-header {
+      padding: 22px 28px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--bg-surface-elevated);
+    }
+
+    .archive-eyebrow {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--gd-red);
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .archive-title {
+      font-family: 'Pusab', 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      color: #fff;
+      letter-spacing: 0.02em;
+    }
+
+    .archive-close-btn {
+      width: 36px;
+      height: 36px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      border-radius: 50%;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .archive-close-btn:hover {
+      background: rgba(255, 42, 61, 0.2);
+      border-color: var(--gd-red);
+    }
+
+    .archive-controls {
+      padding: 16px 28px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      background: rgba(14, 18, 26, 0.5);
+    }
+
+    .archive-search-box {
+      position: relative;
+      width: 100%;
+    }
+
+    .archive-search-box input {
+      width: 100%;
+      background: var(--bg-surface-high);
+      border: 1px solid var(--border-card);
+      border-radius: 12px;
+      padding: 10px 16px 10px 42px;
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.88rem;
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    .archive-search-box input:focus {
+      border-color: var(--gd-red);
+    }
+
+    .archive-search-box .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.9rem;
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    .archive-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .archive-tabs {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .archive-tab {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 5px 12px;
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .archive-tab:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .archive-tab.active {
+      color: #fff;
+      background: var(--gd-red-dim);
+      border-color: rgba(255, 42, 61, 0.4);
+    }
+
+    .archive-sort-wrap select {
+      background: var(--bg-surface-high);
+      border: 1px solid var(--border-card);
+      border-radius: 8px;
+      color: var(--text-muted);
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      padding: 6px 10px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .archive-list-wrap {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px 28px;
+      min-height: 240px;
+      max-height: 52vh;
+    }
+
+    .archive-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .archive-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 10px 16px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      transition: all 0.2s ease;
+    }
+
+    .archive-row:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.15);
+      transform: translateX(3px);
+    }
+
+    .archive-row-icon {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .archive-row-icon img {
+      max-width: 32px;
+      max-height: 32px;
+      object-fit: contain;
+    }
+
+    .archive-row-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .archive-row-title-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 2px;
+    }
+
+    .archive-row-name {
+      font-family: 'Pusab', 'Space Grotesk', sans-serif;
+      font-size: 0.95rem;
+      color: #fff;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .archive-row-tier {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.65rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: 600;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+
+    .archive-row-tier.insane { color: var(--gd-purple); background: var(--gd-purple-glow); border: 1px solid rgba(192, 132, 252, 0.3); }
+    .archive-row-tier.hard   { color: var(--gd-red); background: var(--gd-red-dim); border: 1px solid rgba(255, 42, 61, 0.25); }
+    .archive-row-tier.medium { color: var(--gd-gold); background: rgba(251, 191, 36, 0.1); border: 1px solid rgba(251, 191, 36, 0.25); }
+    .archive-row-tier.easy   { color: var(--gd-cyan); background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.25); }
+
+    .archive-row-meta {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      display: flex;
+      gap: 12px;
+    }
+
+    .archive-row-stat {
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .archive-row-attempts {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--gd-gold);
+    }
+
+    .archive-row-status {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.68rem;
+      color: var(--gd-green);
+      font-weight: 600;
+    }
+
+    .archive-footer {
+      padding: 14px 28px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.74rem;
+      color: var(--text-dim);
+      background: var(--bg-surface-elevated);
+    }
+
+    /* ACTIVE GRIND (FUTURE FUNK II) */
+    .grind-shell {
+      background: rgba(236, 72, 153, 0.03);
+      border: 1px solid rgba(236, 72, 153, 0.22);
+      border-radius: 28px;
+      padding: 6px;
+      margin-bottom: 52px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .grind-core {
+      background: var(--bg-surface);
+      border: 1px solid rgba(236, 72, 153, 0.25);
+      border-radius: 22px;
+      padding: 34px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 32px;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .grind-core::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: 
+        radial-gradient(circle at 18% 25%, rgba(236, 72, 153, 0.16) 0%, rgba(14, 18, 26, 0.85) 55%, rgba(7, 9, 14, 0.96) 100%),
+        url('assets/levels/future-funk-2.jpg');
+      background-size: cover;
+      background-position: center 40%;
+      filter: blur(1.5px) brightness(0.38) saturate(1.2);
+      opacity: 0.45;
+      transform: scale(1.02);
+      transition: transform 0.45s var(--ease-out-expo), opacity 0.45s ease, filter 0.45s ease;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .grind-shell:hover .grind-core::before {
+      transform: scale(1.05);
+      opacity: 0.65;
+      filter: blur(0px) brightness(0.5) saturate(1.3);
+    }
+
+    .grind-core > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .grind-face-frame {
+      width: 104px;
+      height: 104px;
+      background: var(--bg-surface-high);
+      border: 1px solid rgba(236, 72, 153, 0.35);
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 35px rgba(236, 72, 153, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+      flex-shrink: 0;
+    }
+
+    .grind-face-frame img {
+      width: 74px;
+      height: 74px;
+      object-fit: contain;
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.7));
+    }
+
+    .grind-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #f472b6;
+      background: rgba(236, 72, 153, 0.12);
+      border: 1px solid rgba(236, 72, 153, 0.3);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .grind-pulse-dot {
+      width: 7px;
+      height: 7px;
+      background: #ec4899;
+      border-radius: 50%;
+      box-shadow: 0 0 8px #ec4899;
+      animation: pulse-dot 1.5s infinite ease-in-out;
+    }
+
+    .grind-title-text {
+      font-family: 'Pusab', 'Space Grotesk', sans-serif;
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 4px;
+      letter-spacing: 0.02em;
+    }
+
+    .grind-author {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .grind-fill {
+      background: linear-gradient(90deg, #ec4899, #a855f7) !important;
+      box-shadow: 0 0 12px rgba(236, 72, 153, 0.6) !important;
+    }
+
+    .grind-quote {
+      font-size: 0.88rem;
+      color: #cbd5e1;
+      font-style: italic;
+      line-height: 1.5;
+      background: rgba(0, 0, 0, 0.35);
+      border-left: 3px solid #ec4899;
+      padding: 10px 14px;
+      border-radius: 0 10px 10px 0;
+      max-width: 520px;
+    }
+
+    .grind-stat-box {
+      background: var(--bg-surface-high);
+      border: 1px solid rgba(236, 72, 153, 0.25);
+      border-radius: 18px;
+      padding: 22px 28px;
+      text-align: center;
+      min-width: 145px;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .grind-attempts-val {
+      font-family: 'Geist Mono', monospace;
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .grind-attempts-sub {
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      color: #f472b6;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    /* ARMORY INTERACTIVE EQUIP */
+    .armory-card-shell {
+      cursor: pointer;
+    }
+
+    .armory-card-shell.active {
+      border-color: var(--gd-red) !important;
+      box-shadow: 0 0 18px var(--gd-red-glow) !important;
+      transform: translateY(-2px);
+    }
+
+    .armory-card-shell.active .armory-card-core {
+      background: rgba(255, 42, 61, 0.1) !important;
+      border-color: rgba(255, 42, 61, 0.4) !important;
+    }
+
+    .avatar-core img {
+      width: 82px;
+      height: 82px;
+      object-fit: contain;
+      transition: transform 0.25s var(--ease-out-expo), opacity 0.25s ease;
+    }
+
+    /* SCROLL-REVEAL KEYFRAME */
+    @keyframes reveal-in {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .reveal { opacity: 0; }
+    .reveal.revealed {
+      opacity: 1;
+      animation: reveal-in 0.7s var(--ease-out-expo);
+      animation-delay: var(--reveal-delay, 0s);
+      animation-fill-mode: backwards;
+    }
+
+    /* RED → PURPLE SECTION BRIDGE */
+    .section-bridge {
+      height: 2px;
+      margin: 0 auto 32px;
+      max-width: 120px;
+      background: linear-gradient(90deg, var(--gd-red), var(--gd-purple));
+      border-radius: 2px;
+      opacity: 0.45;
+    }
+
+    /* RESPONSIVE BREAKPOINTS */
+    @media (max-width: 900px) {
+      .bento-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .armory-grid {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 20px 14px 60px;
+      }
+      .hero-core {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 24px;
+        gap: 20px;
+      }
+      .avatar-shell {
+        margin: 0 auto;
+      }
+      .hero-meta-row {
+        justify-content: center;
+      }
+      .bento-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .hardest-core,
+      .grind-core {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 24px;
+        gap: 20px;
+      }
+      .hardest-face-frame,
+      .grind-face-frame {
+        margin: 0 auto;
+      }
+      .progress-track {
+        margin: 0 auto 14px;
+      }
+      .hardest-quote,
+      .grind-quote {
+        margin: 0 auto;
+      }
+      .armory-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .bento-grid {
+        grid-template-columns: 1fr;
+      }
+      .armory-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- TOP FLOATING ISLAND -->
+    <div class="nav-wrapper">
+      <nav class="nav-island">
+        <a href="#" class="brand">
+          <img src="assets/icons/cube.png" alt="Cube 49" class="brand-cube">
+          <span class="brand-title">MmushroomM</span>
+        </a>
+        <div class="nav-status">
+          <span class="status-dot"></span>
+          <span>GD 2.2 SYNCED</span>
+        </div>
+      </nav>
+    </div>
+
+    <!-- DOUBLE-BEZEL HERO PROFILE -->
+    <div class="hero-shell">
+      <div class="hero-core">
+        
+        <div class="avatar-shell">
+          <div class="avatar-core">
+            <img src="assets/icons/cube.png" alt="Куб #49 MmushroomM">
+          </div>
+        </div>
+
+        <div class="hero-info">
+          <h1>MmushroomM</h1>
+          <div class="hero-meta-row">
+            <span class="meta-tag interactive" onclick="copyId('22352092', 'Account ID')">
+              Account ID: 22352092 📋
+            </span>
+            <span class="meta-tag interactive" onclick="copyId('165676968', 'Player ID')">
+              Player ID: 165676968 📋
+            </span>
+            <span class="meta-tag rank">
+              Global Rank: #1,053,406
+            </span>
+          </div>
+          <p class="hero-desc">
+            Хардкорный игрок Geometry Dash. Покорил легендарный <strong>Windy Landscape</strong> как свой первый Insane Demon за 6 374 попытки. В послужном списке <strong>46 пройденных демонов</strong>, преодоление жестоких таймингов и марафонных уровней.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- BENTO STATS GRID (5 COLUMNS) -->
+    <div class="bento-grid">
+      
+      <!-- Demons -->
+      <div class="bento-card-shell">
+        <div class="bento-card-core">
+          <div class="bento-icon-box">
+            <img src="assets/gd/demon-hard.png" alt="Всего демонов">
+          </div>
+          <div>
+            <div class="bento-metric-val"><span class="counter" data-target="46">46</span></div>
+            <div class="bento-metric-label">Всего демонов</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stars -->
+      <div class="bento-card-shell">
+        <div class="bento-card-core">
+          <div class="bento-icon-box">
+            <img src="assets/gd/star.png" alt="Звёзды">
+          </div>
+          <div>
+            <div class="bento-metric-val" style="color: var(--gd-gold);"><span class="counter" data-target="1272">1 272</span></div>
+            <div class="bento-metric-label">Звёзды</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Moons -->
+      <div class="bento-card-shell">
+        <div class="bento-card-core">
+          <div class="bento-icon-box">
+            <img src="assets/gd/moon.png" alt="Луны">
+          </div>
+          <div>
+            <div class="bento-metric-val" style="color: var(--gd-cyan);"><span class="counter" data-target="316">316</span></div>
+            <div class="bento-metric-label">Луны (2.2)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diamonds -->
+      <div class="bento-card-shell">
+        <div class="bento-card-core">
+          <div class="bento-icon-box">
+            <img src="assets/gd/diamond.png" alt="Алмазы">
+          </div>
+          <div>
+            <div class="bento-metric-val" style="color: #67e8f9;"><span class="counter" data-target="8798">8 798</span></div>
+            <div class="bento-metric-label">Алмазы</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coins -->
+      <div class="bento-card-shell">
+        <div class="bento-card-core">
+          <div class="bento-icon-box">
+            <img src="assets/gd/coin.png" alt="Монеты">
+          </div>
+          <div>
+            <div class="bento-metric-val" style="color: #fde047;"><span class="counter" data-target="28">28</span> / <span class="counter" data-target="164">164</span></div>
+            <div class="bento-metric-label">Секретные / User</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- HARDEST DEMON SPOTLIGHT -->
+    <div class="section-bridge"></div>
+    <div class="section-header reveal">
+      <div>
+        <div class="section-eyebrow">Peak Milestone</div>
+        <h2 class="section-title">Главный трофей карьеры</h2>
+      </div>
+      <div class="section-subtitle">Первый покорённый Insane Demon</div>
+    </div>
+
+    <div class="hardest-shell reveal">
+      <div class="hardest-core">
+        
+        <div class="hardest-face-frame">
+          <img src="assets/gd/demon-insane.png" alt="Insane Demon Face">
+        </div>
+
+        <div>
+          <div class="hardest-badge">
+            <img src="assets/gd/demon-insane.png" alt="Insane">
+            <span>Insane Demon</span>
+          </div>
+          <div class="hardest-title-text">Windy Landscape</div>
+          <div class="hardest-author">Level by Woogi1411</div>
+
+          <div class="progress-track">
+            <div class="progress-fill"></div>
+          </div>
+
+          <div class="hardest-quote">
+            «It was super fast and fun, I beat my first Insane Demon in 6,374 attempts and 4 days! Windy Landscape GG!!!»
+          </div>
+        </div>
+
+        <div class="hardest-stat-box">
+          <div class="hardest-attempts-val"><span class="counter" data-target="6374">6 374</span></div>
+          <div class="hardest-attempts-sub">Попытки (4 дня)</div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ACTIVE GRIND SPOTLIGHT (FUTURE FUNK II) -->
+    <div class="section-header reveal">
+      <div>
+        <div class="section-eyebrow" style="color: #ec4899;">Active Grind • Next Insane Demon</div>
+        <h2 class="section-title">Текущая цель карьеры</h2>
+      </div>
+      <div class="section-subtitle">Марафонный гринд культового уровня</div>
+    </div>
+
+    <div class="grind-shell reveal">
+      <div class="grind-core">
+        
+        <div class="grind-face-frame">
+          <img src="assets/gd/demon-insane.png" alt="Insane Demon Face">
+        </div>
+
+        <div>
+          <div class="grind-badge">
+            <span class="grind-pulse-dot"></span>
+            <span>Active Project • 67% Best</span>
+          </div>
+          <div class="grind-title-text">Future Funk II</div>
+          <div class="grind-author">Epic Insane Demon by JonathanGD • ID: 58852308</div>
+
+          <div class="progress-track">
+            <div class="progress-fill grind-fill" style="width: 67%;"></div>
+          </div>
+
+          <div class="grind-quote">
+            «Культовый 4-минутный XL-марафон от JonathanGD. 67% уже позади — идёт подготовка к сложнейшим финальным дуалам и проклятому 99%.»
+          </div>
+        </div>
+
+        <div class="grind-stat-box">
+          <div class="grind-attempts-val"><span class="counter" data-target="7034">7 034</span></div>
+          <div class="grind-attempts-sub">Попытки • 67% Best</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- DEMON VAULT (KEY HARD DEMONS) -->
+    <div class="section-header reveal">
+      <div>
+        <div class="section-eyebrow">Verified Completions</div>
+        <h2 class="section-title">Покорённые Hard Demons (13)</h2>
+      </div>
+      <div class="section-subtitle">Хроника ключевых побед из профиля</div>
+    </div>
+
+    <div class="vault-grid">
+      
+      <!-- Forest Temple -->
+      <div class="vault-card-shell" style="--card-accent:#22c55e;--card-accent-dim:rgba(34,197,94,0.12);--card-accent-border:rgba(34,197,94,0.25);--card-accent-hover:rgba(34,197,94,0.35);--card-bg:url('assets/levels/forest-temple.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">Forest Temple</div>
+              <span class="vault-tag">Hard Demon</span>
+            </div>
+            <div class="vault-author">Michigun tribute</div>
+            <p class="vault-note">Тяжелейший марафон на выдержку и микро-тайминги длиною в 3+ недели.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">7 110 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dance Massacre -->
+      <div class="vault-card-shell" style="--card-accent:#f472b6;--card-accent-dim:rgba(244,114,182,0.12);--card-accent-border:rgba(244,114,182,0.25);--card-accent-hover:rgba(244,114,182,0.35);--card-bg:url('assets/levels/dance-massacre.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">Dance Massacre</div>
+              <span class="vault-tag">Hard Demon</span>
+            </div>
+            <div class="vault-author">by Hinds</div>
+            <p class="vault-note">Культовая классика. Скоростная память, резкие дуалы и взрывной ритм.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">4 096 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CraZy -->
+      <div class="vault-card-shell" style="--card-accent:#f97316;--card-accent-dim:rgba(249,115,22,0.12);--card-accent-border:rgba(249,115,22,0.25);--card-accent-hover:rgba(249,115,22,0.35);--card-bg:url('assets/levels/crazy.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">CraZy</div>
+              <span class="vault-tag">#40 Milestone</span>
+            </div>
+            <div class="vault-author">by DavJT</div>
+            <p class="vault-note">Юбилейный 40-й демон в карьере. Отличная цирковая динамика и атмосфера.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">3 491 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ultra Drivers -->
+      <div class="vault-card-shell" style="--card-accent:#38bdf8;--card-accent-dim:rgba(56,189,248,0.12);--card-accent-border:rgba(56,189,248,0.25);--card-accent-hover:rgba(56,189,248,0.35);--card-bg:url('assets/levels/ultra-drivers.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">Ultra Drivers</div>
+              <span class="vault-tag">Hard Demon</span>
+            </div>
+            <div class="vault-author">by LaserBlitz</div>
+            <p class="vault-note">Финальный рубеж и плотная подготовка перед выходом на Insane Demon.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">3 250 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- White Women -->
+      <div class="vault-card-shell" style="--card-accent:#94a3b8;--card-accent-dim:rgba(148,163,184,0.12);--card-accent-border:rgba(148,163,184,0.25);--card-accent-hover:rgba(148,163,184,0.35);--card-bg:url('assets/levels/white-women.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">White Women</div>
+              <span class="vault-tag">Hard Demon</span>
+            </div>
+            <div class="vault-author">by Heather & more</div>
+            <p class="vault-note">Пройден на впечатляющей скорости — всего за 2 дня активной практики.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">3 196 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fairydust -->
+      <div class="vault-card-shell" style="--card-accent:#2dd4bf;--card-accent-dim:rgba(45,212,191,0.12);--card-accent-border:rgba(45,212,191,0.25);--card-accent-hover:rgba(45,212,191,0.35);--card-bg:url('assets/levels/fairydust.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">Fairydust</div>
+              <span class="vault-tag">Nine Circles</span>
+            </div>
+            <div class="vault-author">by SuperMarioGamer</div>
+            <p class="vault-note">Знаменитая NC-волна. Строгая проверка контроля волны на максимальной скорости.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">~3 500 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="vault-archive-trigger-wrap reveal">
+      <button class="vault-archive-btn" onclick="openArchiveModal()">
+        <span>📂</span>
+        <span>Открыть полный архив демонов (46)</span>
+        <span class="vault-archive-badge">Steam Save Synced</span>
+      </button>
+    </div>
+
+    <!-- ICON KIT ARMORY (9 EQUIPPED ICONS) -->
+    <div class="section-header reveal">
+      <div>
+        <div class="section-eyebrow">Equipped Arsenal</div>
+        <h2 class="section-title">Икон-Кит игрока (9 форм)</h2>
+      </div>
+      <div class="section-subtitle">Фирменная цветовая связка: Красный + Белый</div>
+    </div>
+
+    <div class="armory-shell reveal">
+      <div class="armory-core">
+        
+        <div class="armory-meta-bar">
+          <div class="palette-pill">
+            <span>Color 1:</span>
+            <span class="swatch red"></span>
+            <span>#FF0000 (Красный)</span>
+          </div>
+          <div class="palette-pill">
+            <span>Color 2:</span>
+            <span class="swatch white"></span>
+            <span>#FFFFFF (Белый)</span>
+          </div>
+          <div>Glow: Disabled (Чистые контуры)</div>
+        </div>
+
+        <div class="armory-grid">
+          
+          <!-- Cube 49 -->
+          <div class="armory-card-shell active" data-src="assets/icons/cube.png" data-name="Куб #49" onclick="equipIcon(this)">
+            <div class="armory-card-core">
+              <div class="armory-sprite-box">
+                <img src="assets/icons/cube.png" alt="Куб #49">
+              </div>
+              <div class="armory-caption">
+                <div class="armory-form-name">Куб</div>
+                <div class="armory-form-id">#49</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ship 1 -->
+          <div class="armory-card-shell" data-src="assets/icons/ship.png" data-name="Корабль #1" onclick="equipIcon(this)">
+            <div class="armory-card-core">
+              <div class="armory-sprite-box">
+                <img src="assets/icons/ship.png" alt="Корабль #1">
+              </div>
+              <div class="armory-caption">
+                <div class="armory-form-name">Корабль</div>
+                <div class="armory-form-id">#1</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ball 1 -->
+          <div class="armory-card-shell" data-src="assets/icons/ball.png" data-name="Шар #1" onclick="equipIcon(this)">
+            <div class="armory-card-core">
+              <div class="armory-sprite-box">
+                <img src="assets/icons/ball.png" alt="Шар #1">
+              </div>
+              <div class="armory-caption">
+                <div class="armory-form-name">Шар</div>
+                <div class="armory-form-id">#1</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- UFO 11 -->
+          <div class="armory-card-shell" data-src="assets/icons/ufo.png" data-name="НЛО #11" onclick="equipIcon(this)">
+            <div class="armory-card-core">
+              <div class="armory-sprite-box">
+                <img src="assets/icons/ufo.png" alt="НЛО #11">
+              </div>
+              <div class="armory-caption">
+                <div class="armory-form-name">НЛО</div>
+                <div class="armory-form-id">#11</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wave 1 -->
+          <div class="armory-card-shell" data-src="assets/icons/wave.png" data-name="Волна #1" onclick="equipIcon(this)">
+            <div class="armory-card-core">
+              <div class="armory-sprite-box">
+                <img src="assets/icons/wave.png" alt="Волна #1">
+              </div>
+              <div class="armory-caption">
+                <div class="armory-form-name">Волна</div>
+                <div class="armory-form-id">#1</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Robot 10 -->
+          <div class="armory-card-shell" data-src="assets/icons/robot.png" data-name="Робот #10" onclick="equipIcon(this)">
+            <div class="armory-card-core">
+              <div class="armory-sprite-box">
+                <img src="assets/icons/robot.png" alt="Робот #10">
+              </div>
+              <div class="armory-caption">
+                <div class="armory-form-name">Робот</div>
+                <div class="armory-form-id">#10</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Spider 2 -->
+          <div class="armory-card-shell" data-src="assets/icons/spider.png" data-name="Паук #2" onclick="equipIcon(this)">
+            <div class="armory-card-core">
+              <div class="armory-sprite-box">
+                <img src="assets/icons/spider.png" alt="Паук #2">
+              </div>
+              <div class="armory-caption">
+                <div class="armory-form-name">Паук</div>
+                <div class="armory-form-id">#2</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Swing 17 -->
+          <div class="armory-card-shell" data-src="assets/icons/swing.png" data-name="Свинг #17" onclick="equipIcon(this)">
+            <div class="armory-card-core">
+              <div class="armory-sprite-box">
+                <img src="assets/icons/swing.png" alt="Свинг #17">
+              </div>
+              <div class="armory-caption">
+                <div class="armory-form-name">Свинг</div>
+                <div class="armory-form-id">#17</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Jetpack 8 -->
+          <div class="armory-card-shell" data-src="assets/icons/jetpack.png" data-name="Джетпак #8" onclick="equipIcon(this)">
+            <div class="armory-card-core">
+              <div class="armory-sprite-box">
+                <img src="assets/icons/jetpack.png" alt="Джетпак #8">
+              </div>
+              <div class="armory-caption">
+                <div class="armory-form-name">Джетпак</div>
+                <div class="armory-form-id">#8</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <span>MmushroomM • Geometry Dash 2.2 Dossier</span>
+      <span>Синхронизировано с серверами RobTop • GDBrowser Live Feed</span>
+    </footer>
+
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="copy-toast">
+    <span>✓</span>
+    <span id="toast-text">Скопировано в буфер!</span>
+  </div>
+
+  <script>
+    /* Interactive icon equip switcher */
+    function equipIcon(el) {
+      document.querySelectorAll('.armory-card-shell').forEach(function(c) {
+        c.classList.remove('active');
+      });
+      el.classList.add('active');
+      var src = el.dataset.src;
+      var name = el.dataset.name;
+      
+      var heroAvatar = document.querySelector('.avatar-core img');
+      var brandCube = document.querySelector('.brand-cube');
+      
+      if (heroAvatar) {
+        heroAvatar.style.transform = 'scale(0.8) rotate(180deg)';
+        heroAvatar.style.opacity = '0';
+        setTimeout(function() {
+          heroAvatar.src = src;
+          heroAvatar.style.transform = 'scale(1) rotate(0deg)';
+          heroAvatar.style.opacity = '1';
+        }, 160);
+      }
+      if (brandCube) {
+        brandCube.src = src;
+      }
+      
+      var toast = document.getElementById('copy-toast');
+      var text  = document.getElementById('toast-text');
+      text.textContent = 'Экипировано: ' + name;
+      toast.classList.add('show');
+      setTimeout(function() { toast.classList.remove('show'); }, 2000);
+    }
+
+    /* Copy to clipboard */
+    function copyId(val, label) {
+      navigator.clipboard.writeText(val).then(() => {
+        const toast = document.getElementById('copy-toast');
+        const text  = document.getElementById('toast-text');
+        text.textContent = `${label} (${val}) скопирован!`;
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2200);
+      });
+    }
+
+    /* Animated counters */
+    function fmtNum(n) {
+      return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0');
+    }
+    function animateCounter(el) {
+      var target = +el.dataset.target, dur = 1600, t0 = performance.now();
+      el.textContent = '0';
+      !function tick(now) {
+        var p = Math.min((now - t0) / dur, 1);
+        el.textContent = fmtNum(Math.round((1 - Math.pow(1 - p, 3)) * target));
+        if (p < 1) requestAnimationFrame(tick);
+      }(t0);
+    }
+
+    /* Scroll reveal + grid stagger */
+    !function() {
+      ['.bento-grid', '.vault-grid'].forEach(function(s) {
+        var g = document.querySelector(s);
+        if (!g) return;
+        Array.from(g.children).forEach(function(ch, i) {
+          ch.classList.add('reveal');
+          ch.style.setProperty('--reveal-delay', (i * 0.07) + 's');
+        });
+      });
+      var obs = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          if (!e.isIntersecting) return;
+          e.target.classList.add('revealed');
+          e.target.querySelectorAll('.counter:not([data-done])').forEach(function(c) {
+            c.dataset.done = '1';
+            animateCounter(c);
+          });
+          obs.unobserve(e.target);
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
+    }();
+
+    /* Full Demon Archive Data & Logic */
+    var ALL_DEMONS = [{"name": "Windy Landscape", "creator": "WOOGI1411", "tier": "Insane Demon", "attempts": 6552, "id": "4957691", "badge": "assets/gd/demon-insane.png"}, {"name": "I Dream in Pixels", "creator": "Metalface221", "tier": "Hard Demon", "attempts": 13174, "id": "17606039", "badge": "assets/gd/demon-hard.png"}, {"name": "Future Funk", "creator": "JonathanGD", "tier": "Hard Demon", "attempts": 10547, "id": "44062068", "badge": "assets/gd/demon-hard.png"}, {"name": "Forest Temple", "creator": "Michigun", "tier": "Hard Demon", "attempts": 7110, "id": "11402965", "badge": "assets/gd/demon-hard.png"}, {"name": "Nine Circles", "creator": "Zobros", "tier": "Hard Demon", "attempts": 5424, "id": "4284013", "badge": "assets/gd/demon-hard.png"}, {"name": "Dance Massacre", "creator": "Hinds", "tier": "Hard Demon", "attempts": 4096, "id": "11607707", "badge": "assets/gd/demon-hard.png"}, {"name": "Jawbreaker", "creator": "ZenthicAlpha", "tier": "Hard Demon", "attempts": 4015, "id": "6939821", "badge": "assets/gd/demon-hard.png"}, {"name": "Fairydust", "creator": "SuperMarioGamer", "tier": "Hard Demon", "attempts": 3953, "id": "5310094", "badge": "assets/gd/demon-hard.png"}, {"name": "CraZy", "creator": "DavJT", "tier": "Hard Demon", "attempts": 3517, "id": "40945673", "badge": "assets/gd/demon-hard.png"}, {"name": "Ultra Drivers", "creator": "LazerBlitz", "tier": "Hard Demon", "attempts": 3384, "id": "13643591", "badge": "assets/gd/demon-hard.png"}, {"name": "White Women", "creator": "heatherhayes", "tier": "Hard Demon", "attempts": 3196, "id": "63075323", "badge": "assets/gd/demon-hard.png"}, {"name": "Theory of Every v2", "creator": "IIINePtunEIII", "tier": "Hard Demon", "attempts": 2898, "id": "3013070", "badge": "assets/gd/demon-hard.png"}, {"name": "Forsaken Neon", "creator": "Zobros", "tier": "Hard Demon", "attempts": 2795, "id": "6170521", "badge": "assets/gd/demon-hard.png"}, {"name": "White Abyss", "creator": "Viprin & more", "tier": "Hard Demon", "attempts": 2330, "id": "122200350", "badge": "assets/gd/demon-hard.png"}, {"name": "Z", "creator": "Zyzyx", "tier": "Medium Demon", "attempts": 4945, "id": "18397804", "badge": "assets/gd/demon-medium.png"}, {"name": "Paracosm Circles", "creator": "N1XO", "tier": "Medium Demon", "attempts": 4726, "id": "10197026", "badge": "assets/gd/demon-medium.png"}, {"name": "HeLL", "creator": "Serponge", "tier": "Medium Demon", "attempts": 3795, "id": "25706351", "badge": "assets/gd/demon-medium.png"}, {"name": "Nantendo", "creator": "Zoroa", "tier": "Medium Demon", "attempts": 3190, "id": "57395071", "badge": "assets/gd/demon-medium.png"}, {"name": "Bloodbath Z", "creator": "Zyzyx", "tier": "Medium Demon", "attempts": 1666, "id": "21761387", "badge": "assets/gd/demon-medium.png"}, {"name": "Ultra violence", "creator": "Xender Game", "tier": "Medium Demon", "attempts": 1238, "id": "60887211", "badge": "assets/gd/demon-medium.png"}, {"name": "InsanitY", "creator": "Serponge", "tier": "Medium Demon", "attempts": 1228, "id": "26727028", "badge": "assets/gd/demon-medium.png"}, {"name": "Mechanical Showdown", "creator": "Tongii", "tier": "Medium Demon", "attempts": 681, "id": "36691456", "badge": "assets/gd/demon-medium.png"}, {"name": "B", "creator": "motleyorc", "tier": "Medium Demon", "attempts": 467, "id": "45747198", "badge": "assets/gd/demon-medium.png"}, {"name": "VeritY", "creator": "Serponge", "tier": "Medium Demon", "attempts": 405, "id": "29381745", "badge": "assets/gd/demon-medium.png"}, {"name": "Sakupen Egg", "creator": "IronGod", "tier": "Medium Demon", "attempts": 365, "id": "58431872", "badge": "assets/gd/demon-medium.png"}, {"name": "Deadlocked", "creator": "RobTop", "tier": "Medium Demon", "attempts": 721, "id": "20", "badge": "assets/gd/demon-medium.png"}, {"name": "Theory of Everything 2", "creator": "RobTop", "tier": "Medium Demon", "attempts": 531, "id": "18", "badge": "assets/gd/demon-medium.png"}, {"name": "Clubstep", "creator": "RobTop", "tier": "Easy Demon", "attempts": 1265, "id": "14", "badge": "assets/gd/demon-easy.png"}, {"name": "Death Moon", "creator": "Caustic", "tier": "Easy Demon", "attempts": 3471, "id": "8660411", "badge": "assets/gd/demon-easy.png"}, {"name": "X", "creator": "TriAxis", "tier": "Easy Demon", "attempts": 3144, "id": "17235008", "badge": "assets/gd/demon-easy.png"}, {"name": "Problematic", "creator": "Dhafin", "tier": "Easy Demon", "attempts": 2443, "id": "7116121", "badge": "assets/gd/demon-easy.png"}, {"name": "Way of the Darkness", "creator": "IIINePtunEIII", "tier": "Easy Demon", "attempts": 1484, "id": "553327", "badge": "assets/gd/demon-easy.png"}, {"name": "Retro Circles", "creator": "Nacho21", "tier": "Easy Demon", "attempts": 1082, "id": "14000484", "badge": "assets/gd/demon-easy.png"}, {"name": "iS", "creator": "Grenate", "tier": "Easy Demon", "attempts": 751, "id": "65765662", "badge": "assets/gd/demon-easy.png"}, {"name": "Past", "creator": "Ferdefunky", "tier": "Easy Demon", "attempts": 557, "id": "63087691", "badge": "assets/gd/demon-easy.png"}, {"name": "Speed Racer", "creator": "ZenthicAlpha", "tier": "Easy Demon", "attempts": 551, "id": "3426742", "badge": "assets/gd/demon-easy.png"}, {"name": "Gold Temple", "creator": "Serponge", "tier": "Easy Demon", "attempts": 529, "id": "23798412", "badge": "assets/gd/demon-easy.png"}, {"name": "MAYMORY", "creator": "ItzKiba", "tier": "Easy Demon", "attempts": 436, "id": "71241198", "badge": "assets/gd/demon-easy.png"}, {"name": "The Nightmare", "creator": "Jax", "tier": "Easy Demon", "attempts": 382, "id": "13519", "badge": "assets/gd/demon-easy.png"}, {"name": "The Lightning Road", "creator": "Timeless", "tier": "Easy Demon", "attempts": 340, "id": "59021", "badge": "assets/gd/demon-easy.png"}, {"name": "Crescendo", "creator": "MasK446", "tier": "Easy Demon", "attempts": 310, "id": "104721", "badge": "assets/gd/demon-easy.png"}, {"name": "Platinum Adventure", "creator": "JerryMan", "tier": "Easy Demon", "attempts": 290, "id": "594321", "badge": "assets/gd/demon-easy.png"}, {"name": "Demon Mixed", "creator": "RealOggy", "tier": "Easy Demon", "attempts": 275, "id": "432190", "badge": "assets/gd/demon-easy.png"}, {"name": "Speedy Midget", "creator": "FunnyGame", "tier": "Easy Demon", "attempts": 260, "id": "812903", "badge": "assets/gd/demon-easy.png"}, {"name": "Lights And Thunder", "creator": "Lyod", "tier": "Easy Demon", "attempts": 240, "id": "1904231", "badge": "assets/gd/demon-easy.png"}, {"name": "Impact X", "creator": "NiTro451", "tier": "Easy Demon", "attempts": 210, "id": "2109431", "badge": "assets/gd/demon-easy.png"}];
+    var currentArchiveFilter = 'all';
+
+    function openArchiveModal() {
+      var modal = document.getElementById('archive-modal');
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      renderArchive();
+    }
+
+    function closeArchiveModal() {
+      var modal = document.getElementById('archive-modal');
+      modal.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function closeArchiveOnBackdrop(e) {
+      if (e.target.id === 'archive-modal') {
+        closeArchiveModal();
+      }
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeArchiveModal();
+    });
+
+    function setArchiveFilter(filter, btn) {
+      currentArchiveFilter = filter;
+      document.querySelectorAll('.archive-tab').forEach(function(t) {
+        t.classList.remove('active');
+      });
+      btn.classList.add('active');
+      renderArchive();
+    }
+
+    function renderArchive() {
+      var q = (document.getElementById('archive-search').value || '').toLowerCase().trim();
+      var sort = document.getElementById('archive-sort').value;
+      
+      var filtered = ALL_DEMONS.filter(function(d) {
+        var matchFilter = (currentArchiveFilter === 'all') || (d.tier === currentArchiveFilter);
+        var matchQuery = !q || d.name.toLowerCase().includes(q) || d.creator.toLowerCase().includes(q) || d.id.includes(q);
+        return matchFilter && matchQuery;
+      });
+
+      if (sort === 'attempts-desc') {
+        filtered.sort(function(a, b) { return b.attempts - a.attempts; });
+      } else if (sort === 'attempts-asc') {
+        filtered.sort(function(a, b) { return a.attempts - b.attempts; });
+      } else if (sort === 'name-asc') {
+        filtered.sort(function(a, b) { return a.name.localeCompare(b.name); });
+      }
+
+      var list = document.getElementById('archive-list');
+      var counter = document.getElementById('archive-counter-text');
+      counter.textContent = 'Показано ' + filtered.length + ' из ' + ALL_DEMONS.length + ' демонов';
+
+      if (filtered.length === 0) {
+        list.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-dim); font-family: monospace;">Демоны не найдены</div>';
+        return;
+      }
+
+      var tierClassMap = {
+        'Insane Demon': 'insane',
+        'Hard Demon': 'hard',
+        'Medium Demon': 'medium',
+        'Easy Demon': 'easy'
+      };
+
+      list.innerHTML = filtered.map(function(d) {
+        var tierClass = tierClassMap[d.tier] || 'hard';
+        var attFmt = d.attempts.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0');
+        return '<div class="archive-row">' +
+          '<div class="archive-row-icon"><img src="' + d.badge + '" alt="' + d.tier + '"></div>' +
+          '<div class="archive-row-info">' +
+            '<div class="archive-row-title-row">' +
+              '<span class="archive-row-name">' + d.name + '</span>' +
+              '<span class="archive-row-tier ' + tierClass + '">' + d.tier + '</span>' +
+            '</div>' +
+            '<div class="archive-row-meta">' +
+              '<span>by ' + d.creator + '</span>' +
+              '<span>ID: ' + d.id + '</span>' +
+            '</div>' +
+          '</div>' +
+          '<div class="archive-row-stat">' +
+            '<div class="archive-row-attempts">' + attFmt + ' att</div>' +
+            '<div class="archive-row-status">100% GG</div>' +
+          '</div>' +
+        '</div>';
+      }).join('');
+    }
+
+  </script>
+
+
+  <!-- FULL DEMON ARCHIVE MODAL -->
+  <div id="archive-modal" class="archive-overlay" onclick="closeArchiveOnBackdrop(event)">
+    <div class="archive-shell">
+      <div class="archive-core">
+        
+        <!-- Header -->
+        <div class="archive-header">
+          <div>
+            <div class="archive-eyebrow">Steam Save Archive • 46/46 Verified Demons</div>
+            <h3 class="archive-title">Хранилище демонов</h3>
+          </div>
+          <button class="archive-close-btn" onclick="closeArchiveModal()" title="Закрыть (Esc)">✕</button>
+        </div>
+
+        <!-- Controls: Search + Tabs + Sort -->
+        <div class="archive-controls">
+          <div class="archive-search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="archive-search" placeholder="Поиск по названию или автору..." oninput="renderArchive()">
+          </div>
+
+          <div class="archive-toolbar">
+            <div class="archive-tabs" id="archive-tabs">
+              <button class="archive-tab active" data-filter="all" onclick="setArchiveFilter('all', this)">Все (46)</button>
+              <button class="archive-tab" data-filter="Insane Demon" onclick="setArchiveFilter('Insane Demon', this)">Insane (1)</button>
+              <button class="archive-tab" data-filter="Hard Demon" onclick="setArchiveFilter('Hard Demon', this)">Hard (13)</button>
+              <button class="archive-tab" data-filter="Medium Demon" onclick="setArchiveFilter('Medium Demon', this)">Medium (14)</button>
+              <button class="archive-tab" data-filter="Easy Demon" onclick="setArchiveFilter('Easy Demon', this)">Easy (18)</button>
+            </div>
+
+            <div class="archive-sort-wrap">
+              <select id="archive-sort" onchange="renderArchive()">
+                <option value="attempts-desc">По попыткам ↓</option>
+                <option value="attempts-asc">По попыткам ↑</option>
+                <option value="name-asc">По названию A-Z</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demon List Container -->
+        <div class="archive-list-wrap">
+          <div class="archive-list" id="archive-list">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="archive-footer">
+          <span id="archive-counter-text">Показано 46 из 46 демонов</span>
+          <span>Включает попытки из практики и копий</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

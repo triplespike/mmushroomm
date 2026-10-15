@@ -1,0 +1,7459 @@
+[
+  {
+    "id": "1",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 69,
+    "copy_attempts": 5,
+    "total_attempts": 74,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (69)",
+      "8o (5)"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Back On Track",
+    "creator": null,
+    "online_attempts": 6,
+    "copy_attempts": 0,
+    "total_attempts": 6,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (6)"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Polargeist",
+    "creator": null,
+    "online_attempts": 8,
+    "copy_attempts": 0,
+    "total_attempts": 8,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (8)"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Dry Out",
+    "creator": null,
+    "online_attempts": 38,
+    "copy_attempts": 0,
+    "total_attempts": 38,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (38)"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Base After Base",
+    "creator": null,
+    "online_attempts": 2464,
+    "copy_attempts": 0,
+    "total_attempts": 2464,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2464)"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Cant Let Go",
+    "creator": null,
+    "online_attempts": 148,
+    "copy_attempts": 0,
+    "total_attempts": 148,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (148)"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Jumper",
+    "creator": null,
+    "online_attempts": 21,
+    "copy_attempts": 0,
+    "total_attempts": 21,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (21)"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Time Machine",
+    "creator": null,
+    "online_attempts": 222,
+    "copy_attempts": 0,
+    "total_attempts": 222,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (222)"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Cycles",
+    "creator": null,
+    "online_attempts": 322,
+    "copy_attempts": 0,
+    "total_attempts": 322,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (322)"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "xStep",
+    "creator": null,
+    "online_attempts": 126,
+    "copy_attempts": 0,
+    "total_attempts": 126,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (126)"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Clutterfunk",
+    "creator": null,
+    "online_attempts": 375,
+    "copy_attempts": 0,
+    "total_attempts": 375,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (375)"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Theory of Everything",
+    "creator": null,
+    "online_attempts": 230,
+    "copy_attempts": 0,
+    "total_attempts": 230,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (230)"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Electroman Adventures",
+    "creator": null,
+    "online_attempts": 130,
+    "copy_attempts": 0,
+    "total_attempts": 130,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (130)"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Clubstep",
+    "creator": null,
+    "online_attempts": 1265,
+    "copy_attempts": 0,
+    "total_attempts": 1265,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1265)"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Electrodynamix",
+    "creator": null,
+    "online_attempts": 646,
+    "copy_attempts": 0,
+    "total_attempts": 646,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (646)"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Hexagon Force",
+    "creator": null,
+    "online_attempts": 404,
+    "copy_attempts": 0,
+    "total_attempts": 404,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (404)"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Blast Processing",
+    "creator": null,
+    "online_attempts": 266,
+    "copy_attempts": 0,
+    "total_attempts": 266,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (266)"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Theory of Everything 2",
+    "creator": null,
+    "online_attempts": 531,
+    "copy_attempts": 0,
+    "total_attempts": 531,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (531)"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Geometrical Dominator",
+    "creator": null,
+    "online_attempts": 331,
+    "copy_attempts": 0,
+    "total_attempts": 331,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (331)"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Deadlocked",
+    "creator": null,
+    "online_attempts": 721,
+    "copy_attempts": 0,
+    "total_attempts": 721,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (721)"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Fingerdash",
+    "creator": null,
+    "online_attempts": 118,
+    "copy_attempts": 0,
+    "total_attempts": 118,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (118)"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Dash",
+    "creator": null,
+    "online_attempts": 237,
+    "copy_attempts": 0,
+    "total_attempts": 237,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (237)"
+    ]
+  },
+  {
+    "id": "5001",
+    "name": "The Tower",
+    "creator": null,
+    "online_attempts": 17,
+    "copy_attempts": 0,
+    "total_attempts": 17,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (17)"
+    ]
+  },
+  {
+    "id": "5002",
+    "name": "The Sewers",
+    "creator": null,
+    "online_attempts": 72,
+    "copy_attempts": 0,
+    "total_attempts": 72,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (72)"
+    ]
+  },
+  {
+    "id": "5003",
+    "name": "The Cellar",
+    "creator": null,
+    "online_attempts": 37,
+    "copy_attempts": 0,
+    "total_attempts": 37,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (37)"
+    ]
+  },
+  {
+    "id": "5004",
+    "name": "The Secret Hollow",
+    "creator": null,
+    "online_attempts": 102,
+    "copy_attempts": 0,
+    "total_attempts": 102,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (102)"
+    ]
+  },
+  {
+    "id": "2001",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "2002",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "2003",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "2004",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "2005",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "2006",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 77,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "2007",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": []
+  },
+  {
+    "id": "2008",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": []
+  },
+  {
+    "id": "2009",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": []
+  },
+  {
+    "id": "2010",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": []
+  },
+  {
+    "id": "3001",
+    "name": "The Challenge",
+    "creator": null,
+    "online_attempts": 15,
+    "copy_attempts": 0,
+    "total_attempts": 15,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (15)"
+    ]
+  },
+  {
+    "id": "4002",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 8,
+    "copy_attempts": 0,
+    "total_attempts": 8,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (8)"
+    ]
+  },
+  {
+    "id": "4001",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 15,
+    "copy_attempts": 0,
+    "total_attempts": 15,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (15)"
+    ]
+  },
+  {
+    "id": "1001",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": []
+  },
+  {
+    "id": "1002",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": []
+  },
+  {
+    "id": "1003",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": []
+  },
+  {
+    "id": "4003",
+    "name": "Stereo Madness",
+    "creator": null,
+    "online_attempts": 21,
+    "copy_attempts": 0,
+    "total_attempts": 21,
+    "progress": 71,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (21)"
+    ]
+  },
+  {
+    "id": "13519",
+    "name": "The Nightmare",
+    "creator": "Jax",
+    "online_attempts": 212,
+    "copy_attempts": 0,
+    "total_attempts": 212,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (212)"
+    ]
+  },
+  {
+    "id": "4284013",
+    "name": "Nine Circles",
+    "creator": "Zobros",
+    "online_attempts": 0,
+    "copy_attempts": 2596,
+    "total_attempts": 2596,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Nine Circles 2 (2596)"
+    ]
+  },
+  {
+    "id": "6508283",
+    "name": "ReTraY",
+    "creator": "DiMaViKuLov26",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "1729",
+    "name": "DARKNESS",
+    "creator": "Phenoix",
+    "online_attempts": 6,
+    "copy_attempts": 0,
+    "total_attempts": 6,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (6)"
+    ]
+  },
+  {
+    "id": "27732941",
+    "name": "OuterSpace",
+    "creator": "Nicki1202",
+    "online_attempts": 10,
+    "copy_attempts": 0,
+    "total_attempts": 10,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (10)"
+    ]
+  },
+  {
+    "id": "20635816",
+    "name": null,
+    "creator": "Berkoo",
+    "online_attempts": 15,
+    "copy_attempts": 0,
+    "total_attempts": 15,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (15)"
+    ]
+  },
+  {
+    "id": "17235008",
+    "name": "X",
+    "creator": "TriAxis",
+    "online_attempts": 3144,
+    "copy_attempts": 0,
+    "total_attempts": 3144,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3144)"
+    ]
+  },
+  {
+    "id": "3543219",
+    "name": "Speed Racer",
+    "creator": "ZenthicAlpha",
+    "online_attempts": 551,
+    "copy_attempts": 0,
+    "total_attempts": 551,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (551)"
+    ]
+  },
+  {
+    "id": "95049394",
+    "name": "Drowned Basin",
+    "creator": "Censr",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "38427291",
+    "name": null,
+    "creator": "haoN",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "44121158",
+    "name": "Ghoul",
+    "creator": "DesTicY",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "28225110",
+    "name": "Shock",
+    "creator": "Danolex",
+    "online_attempts": 100,
+    "copy_attempts": 0,
+    "total_attempts": 100,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (100)"
+    ]
+  },
+  {
+    "id": "45932196",
+    "name": "ABCDEFGHIJKLMNOPQRS",
+    "creator": "NeoSweet",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 4,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "27483789",
+    "name": "First Race",
+    "creator": "Stamina",
+    "online_attempts": 107,
+    "copy_attempts": 0,
+    "total_attempts": 107,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (107)"
+    ]
+  },
+  {
+    "id": "28179535",
+    "name": "Acid Factory",
+    "creator": "nehegas",
+    "online_attempts": 6,
+    "copy_attempts": 0,
+    "total_attempts": 6,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (6)"
+    ]
+  },
+  {
+    "id": "10197026",
+    "name": "Paracosm Circles",
+    "creator": "N1XO",
+    "online_attempts": 4726,
+    "copy_attempts": 0,
+    "total_attempts": 4726,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (4726)"
+    ]
+  },
+  {
+    "id": "4706930",
+    "name": "Supersonic",
+    "creator": "ZenthicAlpha",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "8660411",
+    "name": "Death Moon ",
+    "creator": "Caustic",
+    "online_attempts": 3471,
+    "copy_attempts": 0,
+    "total_attempts": 3471,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3471)"
+    ]
+  },
+  {
+    "id": "1777565",
+    "name": "Laser Room",
+    "creator": "TrueNature",
+    "online_attempts": 15,
+    "copy_attempts": 0,
+    "total_attempts": 15,
+    "progress": 12,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (15)"
+    ]
+  },
+  {
+    "id": "7116121",
+    "name": "Problematic",
+    "creator": "Dhafin",
+    "online_attempts": 2443,
+    "copy_attempts": 0,
+    "total_attempts": 2443,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2443)"
+    ]
+  },
+  {
+    "id": "89886591",
+    "name": "iSpyWithMyLittleEye",
+    "creator": "Voxicat",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "20321297",
+    "name": "Heartbeat",
+    "creator": "KrmaL",
+    "online_attempts": 15,
+    "copy_attempts": 0,
+    "total_attempts": 15,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (15)"
+    ]
+  },
+  {
+    "id": "3010126",
+    "name": "Tetrix",
+    "creator": "Insendium",
+    "online_attempts": 61,
+    "copy_attempts": 0,
+    "total_attempts": 61,
+    "progress": 8,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (61)"
+    ]
+  },
+  {
+    "id": "34085027",
+    "name": "B",
+    "creator": "motleyorc",
+    "online_attempts": 467,
+    "copy_attempts": 0,
+    "total_attempts": 467,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (467)"
+    ]
+  },
+  {
+    "id": "56210242",
+    "name": "Shiver",
+    "creator": "SpKale",
+    "online_attempts": 72,
+    "copy_attempts": 0,
+    "total_attempts": 72,
+    "progress": 31,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (72)"
+    ]
+  },
+  {
+    "id": "14000484",
+    "name": "Retro Circles",
+    "creator": "Nacho21",
+    "online_attempts": 1082,
+    "copy_attempts": 0,
+    "total_attempts": 1082,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1082)"
+    ]
+  },
+  {
+    "id": "27448202",
+    "name": "Magmatic Sanctuary",
+    "creator": "RadiationV2",
+    "online_attempts": 378,
+    "copy_attempts": 0,
+    "total_attempts": 378,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (378)"
+    ]
+  },
+  {
+    "id": "60993841",
+    "name": null,
+    "creator": "ExtoPlasm",
+    "online_attempts": 96,
+    "copy_attempts": 0,
+    "total_attempts": 96,
+    "progress": 11,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (96)"
+    ]
+  },
+  {
+    "id": "11431524",
+    "name": "Deadlocked copyable",
+    "creator": "II Corgi11 II",
+    "online_attempts": 11,
+    "copy_attempts": 0,
+    "total_attempts": 11,
+    "progress": 6,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (11)"
+    ]
+  },
+  {
+    "id": "95174837",
+    "name": "WHAT",
+    "creator": "Spu7Nix",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "88143885",
+    "name": "STARGAZER",
+    "creator": "maplegaegosu",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "82824219",
+    "name": "MikuMikuMikuMiku",
+    "creator": "OddMod",
+    "online_attempts": 6,
+    "copy_attempts": 0,
+    "total_attempts": 6,
+    "progress": 7,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (6)"
+    ]
+  },
+  {
+    "id": "10565740",
+    "name": "Bloodbath",
+    "creator": "Riot",
+    "online_attempts": 1651,
+    "copy_attempts": 0,
+    "total_attempts": 1651,
+    "progress": 2,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1651)"
+    ]
+  },
+  {
+    "id": "25969464",
+    "name": null,
+    "creator": "IlhamAulia",
+    "online_attempts": 33,
+    "copy_attempts": 0,
+    "total_attempts": 33,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (33)"
+    ]
+  },
+  {
+    "id": "90475659",
+    "name": "Snow flies in Fog",
+    "creator": "DeniPol",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "9145341",
+    "name": "8o",
+    "creator": "Zobros",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "87300907",
+    "name": "Rhuzerv",
+    "creator": "Reunomi",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "88980754",
+    "name": "goofy map",
+    "creator": "Woofiee",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "94970705",
+    "name": "Eye of the Universe",
+    "creator": "DavJT",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "95407096",
+    "name": "Departure",
+    "creator": "G4lvatron",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": []
+  },
+  {
+    "id": "91174245",
+    "name": "Nacimiento",
+    "creator": "16lord",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "90752263",
+    "name": "Spacestation",
+    "creator": "Splinter25",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "88982532",
+    "name": "interlude",
+    "creator": "wiktord",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "68913192",
+    "name": "Congregation noclip",
+    "creator": "wooseung1210",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "86084399",
+    "name": "LIMBO",
+    "creator": "MindCap",
+    "online_attempts": 108,
+    "copy_attempts": 0,
+    "total_attempts": 108,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (108)"
+    ]
+  },
+  {
+    "id": "8320596",
+    "name": "Glitter Madness 2k15",
+    "creator": "Glittershroom",
+    "online_attempts": 32,
+    "copy_attempts": 0,
+    "total_attempts": 32,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (32)"
+    ]
+  },
+  {
+    "id": "8477262",
+    "name": "Mystery Dungeon",
+    "creator": "Vermillion",
+    "online_attempts": 41,
+    "copy_attempts": 0,
+    "total_attempts": 41,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (41)"
+    ]
+  },
+  {
+    "id": "93733469",
+    "name": "Tidal Wave",
+    "creator": "sink",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 38,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "86650731",
+    "name": "Broken Roulette",
+    "creator": "NoFlix",
+    "online_attempts": 1114,
+    "copy_attempts": 0,
+    "total_attempts": 1114,
+    "progress": 5,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1114)"
+    ]
+  },
+  {
+    "id": "92555035",
+    "name": "Dreamy",
+    "creator": "DHaner",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "88444739",
+    "name": "Karting Dash",
+    "creator": "MaxyLAND",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "89521875",
+    "name": "Afterlife",
+    "creator": "nasgubb",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "90475473",
+    "name": null,
+    "creator": "bli",
+    "online_attempts": 193,
+    "copy_attempts": 0,
+    "total_attempts": 193,
+    "progress": 9,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (193)"
+    ]
+  },
+  {
+    "id": "18735780",
+    "name": "Dear Nostalgists",
+    "creator": "TriAxis",
+    "online_attempts": 358,
+    "copy_attempts": 0,
+    "total_attempts": 358,
+    "progress": 5,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (358)"
+    ]
+  },
+  {
+    "id": "91791295",
+    "name": "Rush",
+    "creator": "DHaner",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "90117883",
+    "name": "Growing Insane",
+    "creator": "Subwoofer",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "96419926",
+    "name": "b spr9s0",
+    "creator": "fungifity",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "96611738",
+    "name": "the block factory",
+    "creator": "pocke",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "93878047",
+    "name": "Between Worlds",
+    "creator": "xXLOCOXx",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "90471222",
+    "name": "Wild Card",
+    "creator": "Thomartin",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "89800937",
+    "name": "BWOMP",
+    "creator": "MaxiKD",
+    "online_attempts": 30,
+    "copy_attempts": 0,
+    "total_attempts": 30,
+    "progress": 65,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (30)"
+    ]
+  },
+  {
+    "id": "94981098",
+    "name": "Postbluane",
+    "creator": "matty2003",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "90664690",
+    "name": "Magdalene",
+    "creator": "Lyriaki",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "44062068",
+    "name": "Future Funk",
+    "creator": "JonathanGD",
+    "online_attempts": 0,
+    "copy_attempts": 5746,
+    "total_attempts": 5746,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "Future Funk 2 (5746)"
+    ]
+  },
+  {
+    "id": "88775556",
+    "name": "Radiant Glen",
+    "creator": "Knots",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "83323273",
+    "name": "Ruta del Sol",
+    "creator": "TroxxP1",
+    "online_attempts": 10,
+    "copy_attempts": 0,
+    "total_attempts": 10,
+    "progress": 3,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (10)"
+    ]
+  },
+  {
+    "id": "26681070",
+    "name": "Sonic Wave",
+    "creator": "lSunix",
+    "online_attempts": 576,
+    "copy_attempts": 0,
+    "total_attempts": 576,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (576)"
+    ]
+  },
+  {
+    "id": "65765662",
+    "name": "iS",
+    "creator": "Grenate",
+    "online_attempts": 751,
+    "copy_attempts": 0,
+    "total_attempts": 751,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (751)"
+    ]
+  },
+  {
+    "id": "63087691",
+    "name": null,
+    "creator": "Ferdefunky",
+    "online_attempts": 557,
+    "copy_attempts": 0,
+    "total_attempts": 557,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (557)"
+    ]
+  },
+  {
+    "id": "77132030",
+    "name": "Ratio Circles",
+    "creator": "ch4rlie03",
+    "online_attempts": 430,
+    "copy_attempts": 0,
+    "total_attempts": 430,
+    "progress": 16,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (430)"
+    ]
+  },
+  {
+    "id": "80433444",
+    "name": "MAYMORY",
+    "creator": "ItzKiba",
+    "online_attempts": 436,
+    "copy_attempts": 0,
+    "total_attempts": 436,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (436)"
+    ]
+  },
+  {
+    "id": "30468868",
+    "name": "LETs GO",
+    "creator": "izhar",
+    "online_attempts": 15,
+    "copy_attempts": 0,
+    "total_attempts": 15,
+    "progress": 36,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (15)"
+    ]
+  },
+  {
+    "id": "2997354",
+    "name": "DeCode",
+    "creator": "Rek3dge",
+    "online_attempts": 76,
+    "copy_attempts": 0,
+    "total_attempts": 76,
+    "progress": 16,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (76)"
+    ]
+  },
+  {
+    "id": "116174063",
+    "name": "Every End",
+    "creator": "MindCap",
+    "online_attempts": 314,
+    "copy_attempts": 0,
+    "total_attempts": 314,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (314)"
+    ]
+  },
+  {
+    "id": "40945673",
+    "name": "CraZy",
+    "creator": "DavJT",
+    "online_attempts": 0,
+    "copy_attempts": 2296,
+    "total_attempts": 2296,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "CraZy (2296)"
+    ]
+  },
+  {
+    "id": "93276783",
+    "name": "Tidal Wave Noclip ",
+    "creator": "ZoxiRSJ",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "98564977",
+    "name": "Breakout",
+    "creator": "HTigerzGD",
+    "online_attempts": 8,
+    "copy_attempts": 0,
+    "total_attempts": 8,
+    "progress": 21,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (8)"
+    ]
+  },
+  {
+    "id": "62067918",
+    "name": "ClutterX",
+    "creator": "KuraiYonaka",
+    "online_attempts": 17,
+    "copy_attempts": 0,
+    "total_attempts": 17,
+    "progress": 18,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (17)"
+    ]
+  },
+  {
+    "id": "15619194",
+    "name": "Motion",
+    "creator": "TamaN",
+    "online_attempts": 127,
+    "copy_attempts": 0,
+    "total_attempts": 127,
+    "progress": 8,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (127)"
+    ]
+  },
+  {
+    "id": "11945914",
+    "name": "SUNSET",
+    "creator": "SEM 1",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "12194579",
+    "name": "For Science",
+    "creator": "TrueChaos",
+    "online_attempts": 5,
+    "copy_attempts": 0,
+    "total_attempts": 5,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (5)"
+    ]
+  },
+  {
+    "id": "14485066",
+    "name": "Paint on Track",
+    "creator": " Hysteric ",
+    "online_attempts": 10,
+    "copy_attempts": 0,
+    "total_attempts": 10,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (10)"
+    ]
+  },
+  {
+    "id": "14074637",
+    "name": "feather",
+    "creator": "lilbin",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "309628",
+    "name": "Auto ToE",
+    "creator": "FunnyGame",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "57395071",
+    "name": null,
+    "creator": "Zoroa",
+    "online_attempts": 3190,
+    "copy_attempts": 0,
+    "total_attempts": 3190,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (3190)"
+    ]
+  },
+  {
+    "id": "9608518",
+    "name": "Butterfly Effect",
+    "creator": "Linco",
+    "online_attempts": 165,
+    "copy_attempts": 0,
+    "total_attempts": 165,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (165)"
+    ]
+  },
+  {
+    "id": "3979721",
+    "name": "Cataclysm",
+    "creator": "Ggb0y",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "114283297",
+    "name": "andromeda",
+    "creator": "Insxne97",
+    "online_attempts": 8,
+    "copy_attempts": 0,
+    "total_attempts": 8,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (8)"
+    ]
+  },
+  {
+    "id": "110816181",
+    "name": "BOOBAWAMBA",
+    "creator": "Akunakunn",
+    "online_attempts": 21,
+    "copy_attempts": 0,
+    "total_attempts": 21,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (21)"
+    ]
+  },
+  {
+    "id": "89496627",
+    "name": "Avernus",
+    "creator": "PockeWindfish",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "2820124",
+    "name": "Remake Level 2",
+    "creator": "KFAOpitar",
+    "online_attempts": 8,
+    "copy_attempts": 0,
+    "total_attempts": 8,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (8)"
+    ]
+  },
+  {
+    "id": "118604918",
+    "name": "true love",
+    "creator": "Wilz",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 55,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "86407629",
+    "name": "Tidal Wave",
+    "creator": "OniLinkGD",
+    "online_attempts": 44,
+    "copy_attempts": 0,
+    "total_attempts": 44,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (44)"
+    ]
+  },
+  {
+    "id": "988444",
+    "name": "Groove Machine",
+    "creator": "Ghost",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 98,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "47762081",
+    "name": "Phases",
+    "creator": "Incidius",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 99,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "1331004",
+    "name": "UFO mix",
+    "creator": "Ghost",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 97,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "66217891",
+    "name": "Path Walker",
+    "creator": "MaxyLAND",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 52,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "2546328",
+    "name": "Flappy Jumper 2",
+    "creator": "CaptainxPiggy",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "117956300",
+    "name": "Inspection",
+    "creator": "shodai1128",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 10,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "109365157",
+    "name": "Throat of the World",
+    "creator": "thejshadow",
+    "online_attempts": 6,
+    "copy_attempts": 0,
+    "total_attempts": 6,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (6)"
+    ]
+  },
+  {
+    "id": "106696944",
+    "name": "NODE",
+    "creator": "robotchief",
+    "online_attempts": 5,
+    "copy_attempts": 0,
+    "total_attempts": 5,
+    "progress": 6,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (5)"
+    ]
+  },
+  {
+    "id": "119005510",
+    "name": "Virtual",
+    "creator": "W4ko",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 26,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "110044659",
+    "name": "Rage Quit",
+    "creator": "bli",
+    "online_attempts": 11,
+    "copy_attempts": 0,
+    "total_attempts": 11,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (11)"
+    ]
+  },
+  {
+    "id": "116270632",
+    "name": null,
+    "creator": "vegtam",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "104187415",
+    "name": "How to platformer",
+    "creator": "thearmyants",
+    "online_attempts": 240,
+    "copy_attempts": 0,
+    "total_attempts": 240,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (240)"
+    ]
+  },
+  {
+    "id": "10970301",
+    "name": "Bright Eclipse",
+    "creator": "Spa8",
+    "online_attempts": 10,
+    "copy_attempts": 0,
+    "total_attempts": 10,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (10)"
+    ]
+  },
+  {
+    "id": "26561853",
+    "name": "When The Leaves Fall",
+    "creator": "Hyenada",
+    "online_attempts": 13,
+    "copy_attempts": 0,
+    "total_attempts": 13,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (13)"
+    ]
+  },
+  {
+    "id": "9787477",
+    "name": "Gawne Forever",
+    "creator": "izhar",
+    "online_attempts": 17,
+    "copy_attempts": 0,
+    "total_attempts": 17,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (17)"
+    ]
+  },
+  {
+    "id": "3325797",
+    "name": "Findexis Madness 2",
+    "creator": "Findexi",
+    "online_attempts": 15,
+    "copy_attempts": 0,
+    "total_attempts": 15,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (15)"
+    ]
+  },
+  {
+    "id": "33855024",
+    "name": "Soothe",
+    "creator": "epiphani",
+    "online_attempts": 9,
+    "copy_attempts": 0,
+    "total_attempts": 9,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (9)"
+    ]
+  },
+  {
+    "id": "553327",
+    "name": "Way of the Darkness",
+    "creator": "IIINePtunEIII",
+    "online_attempts": 1484,
+    "copy_attempts": 0,
+    "total_attempts": 1484,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1484)"
+    ]
+  },
+  {
+    "id": "110715909",
+    "name": null,
+    "creator": "connot",
+    "online_attempts": 91,
+    "copy_attempts": 0,
+    "total_attempts": 91,
+    "progress": 93,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (91)"
+    ]
+  },
+  {
+    "id": "102814497",
+    "name": "The Towerverse",
+    "creator": "16lord",
+    "online_attempts": 37,
+    "copy_attempts": 0,
+    "total_attempts": 37,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (37)"
+    ]
+  },
+  {
+    "id": "110774313",
+    "name": "BER ZER KER",
+    "creator": "Grax",
+    "online_attempts": 72,
+    "copy_attempts": 0,
+    "total_attempts": 72,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (72)"
+    ]
+  },
+  {
+    "id": "119550490",
+    "name": "Amethyst",
+    "creator": "iMist",
+    "online_attempts": 11,
+    "copy_attempts": 0,
+    "total_attempts": 11,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (11)"
+    ]
+  },
+  {
+    "id": "116284755",
+    "name": "Out of Place",
+    "creator": "djudjeito",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 29,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "116284799",
+    "name": "Aperture",
+    "creator": "chunlv1",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "116285948",
+    "name": "Final Orbit",
+    "creator": "bli",
+    "online_attempts": 10,
+    "copy_attempts": 0,
+    "total_attempts": 10,
+    "progress": 99,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (10)"
+    ]
+  },
+  {
+    "id": "119414594",
+    "name": "YouHave86Sec",
+    "creator": "GabriV4",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": []
+  },
+  {
+    "id": "57433866",
+    "name": "BuTiTi III",
+    "creator": "JonathanGD",
+    "online_attempts": 35,
+    "copy_attempts": 0,
+    "total_attempts": 35,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (35)"
+    ]
+  },
+  {
+    "id": "25706351",
+    "name": "HeLL",
+    "creator": "Serponge",
+    "online_attempts": 3795,
+    "copy_attempts": 0,
+    "total_attempts": 3795,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (3795)"
+    ]
+  },
+  {
+    "id": "14206606",
+    "name": "Paint Madness",
+    "creator": " Hysteric ",
+    "online_attempts": 14,
+    "copy_attempts": 0,
+    "total_attempts": 14,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (14)"
+    ]
+  },
+  {
+    "id": "11941828",
+    "name": "Practice domination",
+    "creator": "iSonicSpeedi",
+    "online_attempts": 14,
+    "copy_attempts": 0,
+    "total_attempts": 14,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (14)"
+    ]
+  },
+  {
+    "id": "32400752",
+    "name": "IZnite",
+    "creator": "izhar",
+    "online_attempts": 13,
+    "copy_attempts": 0,
+    "total_attempts": 13,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (13)"
+    ]
+  },
+  {
+    "id": "14375455",
+    "name": "Colory",
+    "creator": "PsyCheDeLia",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "111474489",
+    "name": "Shikairo Deizu",
+    "creator": "NextTheDude",
+    "online_attempts": 87,
+    "copy_attempts": 0,
+    "total_attempts": 87,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (87)"
+    ]
+  },
+  {
+    "id": "109513812",
+    "name": "HeatSeeker",
+    "creator": "Zeniux",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "59626284",
+    "name": "Future Funk II",
+    "creator": "JonathanGD",
+    "online_attempts": 0,
+    "copy_attempts": 6002,
+    "total_attempts": 6002,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "Future Funk II 2 (6002)"
+    ]
+  },
+  {
+    "id": "18397804",
+    "name": "Z",
+    "creator": "Zyzyx",
+    "online_attempts": 4945,
+    "copy_attempts": 0,
+    "total_attempts": 4945,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (4945)"
+    ]
+  },
+  {
+    "id": "116701141",
+    "name": "Ore clicker II",
+    "creator": "GGEasyLvl",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "83341911",
+    "name": "Disjointed",
+    "creator": "bli",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": []
+  },
+  {
+    "id": "119750498",
+    "name": "Polychrome",
+    "creator": "ImMaxX1",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": []
+  },
+  {
+    "id": "98742254",
+    "name": "Night Plus II",
+    "creator": "YaYmsc",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": []
+  },
+  {
+    "id": "97665723",
+    "name": "Typical GD Roulette",
+    "creator": "MrYer",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "98505331",
+    "name": "TERMINATION PROTOCOL",
+    "creator": "NettleGog",
+    "online_attempts": 12,
+    "copy_attempts": 0,
+    "total_attempts": 12,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (12)"
+    ]
+  },
+  {
+    "id": "98747150",
+    "name": "Neverending sky",
+    "creator": "JustPotatoNow",
+    "online_attempts": 46,
+    "copy_attempts": 0,
+    "total_attempts": 46,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (46)"
+    ]
+  },
+  {
+    "id": "104043964",
+    "name": "3Depth",
+    "creator": "Nemo2510",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "102571230",
+    "name": "BOSS RUSH",
+    "creator": "GDTicLos",
+    "online_attempts": 74,
+    "copy_attempts": 0,
+    "total_attempts": 74,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (74)"
+    ]
+  },
+  {
+    "id": "18269713",
+    "name": "Y",
+    "creator": "geomania",
+    "online_attempts": 0,
+    "copy_attempts": 2917,
+    "total_attempts": 2917,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Y (2917)"
+    ]
+  },
+  {
+    "id": "11189547",
+    "name": "Ship challenge maybe",
+    "creator": "Alkatraz",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "5410474",
+    "name": "Ship Challenge",
+    "creator": "dahcreeperv2",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 23,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "18834999",
+    "name": "VeritY",
+    "creator": "Serponge",
+    "online_attempts": 405,
+    "copy_attempts": 0,
+    "total_attempts": 405,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (405)"
+    ]
+  },
+  {
+    "id": "110236560",
+    "name": "The Topala Prelude",
+    "creator": "MoistenedEgg",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "9864147",
+    "name": "Space Circles",
+    "creator": "SUOMI",
+    "online_attempts": 381,
+    "copy_attempts": 0,
+    "total_attempts": 381,
+    "progress": 15,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (381)"
+    ]
+  },
+  {
+    "id": "116591597",
+    "name": "Adrenaline Rush",
+    "creator": "Gonixel",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "8148420",
+    "name": "Plasma Pulse",
+    "creator": "Giron",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "1236291",
+    "name": "cave escape",
+    "creator": "N1XO",
+    "online_attempts": 19,
+    "copy_attempts": 0,
+    "total_attempts": 19,
+    "progress": 3,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (19)"
+    ]
+  },
+  {
+    "id": "28420508",
+    "name": "Double Triple Trial",
+    "creator": "Michigun",
+    "online_attempts": 9,
+    "copy_attempts": 0,
+    "total_attempts": 9,
+    "progress": 15,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "1",
+    "sources": [
+      "online (9)"
+    ]
+  },
+  {
+    "id": "55089784",
+    "name": "Trip",
+    "creator": "Michigun",
+    "online_attempts": 99,
+    "copy_attempts": 0,
+    "total_attempts": 99,
+    "progress": 11,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (99)"
+    ]
+  },
+  {
+    "id": "11402965",
+    "name": "Forest Temple",
+    "creator": "Michigun",
+    "online_attempts": 0,
+    "copy_attempts": 3737,
+    "total_attempts": 3737,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Forest Temple (3737)"
+    ]
+  },
+  {
+    "id": "92355643",
+    "name": "Kasuigetsu",
+    "creator": "dalrus666",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 3,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "91783099",
+    "name": "kasuigetsu art ",
+    "creator": "velmos001",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "113507456",
+    "name": "impossible ball chal",
+    "creator": "UNKNOWMYT31",
+    "online_attempts": 8,
+    "copy_attempts": 0,
+    "total_attempts": 8,
+    "progress": 13,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (8)"
+    ]
+  },
+  {
+    "id": "112601941",
+    "name": "Sonic wave slam part",
+    "creator": "UNKNOWMYT",
+    "online_attempts": 17,
+    "copy_attempts": 0,
+    "total_attempts": 17,
+    "progress": 4,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (17)"
+    ]
+  },
+  {
+    "id": "119159637",
+    "name": "AutoSpeed",
+    "creator": "0a1",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "81257107",
+    "name": "Fuel",
+    "creator": "bli",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "52374843",
+    "name": "Zodiac",
+    "creator": "BIANOX",
+    "online_attempts": 115,
+    "copy_attempts": 0,
+    "total_attempts": 115,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (115)"
+    ]
+  },
+  {
+    "id": "44190645",
+    "name": "Future Funk Easy",
+    "creator": "jukaras",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 10,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "105383537",
+    "name": "Chromatique",
+    "creator": "StyphonTV",
+    "online_attempts": 209,
+    "copy_attempts": 0,
+    "total_attempts": 209,
+    "progress": 12,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (209)"
+    ]
+  },
+  {
+    "id": "72810041",
+    "name": "ZXCircleS",
+    "creator": "Wintter",
+    "online_attempts": 496,
+    "copy_attempts": 0,
+    "total_attempts": 496,
+    "progress": 13,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (496)"
+    ]
+  },
+  {
+    "id": "60467278",
+    "name": "Nelis100",
+    "creator": "Wintter",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "77428474",
+    "name": "Bloudeleuste",
+    "creator": "MrSpaghetti",
+    "online_attempts": 547,
+    "copy_attempts": 0,
+    "total_attempts": 547,
+    "progress": 3,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (547)"
+    ]
+  },
+  {
+    "id": "67443236",
+    "name": "DIEP",
+    "creator": "bunch",
+    "online_attempts": 5,
+    "copy_attempts": 0,
+    "total_attempts": 5,
+    "progress": 23,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (5)"
+    ]
+  },
+  {
+    "id": "116975102",
+    "name": "Cosmic Level",
+    "creator": "MindCap",
+    "online_attempts": 5,
+    "copy_attempts": 0,
+    "total_attempts": 5,
+    "progress": 54,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (5)"
+    ]
+  },
+  {
+    "id": "62619552",
+    "name": "Grief",
+    "creator": "Moffe",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 40,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "119822051",
+    "name": "GREIF",
+    "creator": "wdlucas",
+    "online_attempts": 30,
+    "copy_attempts": 0,
+    "total_attempts": 30,
+    "progress": 12,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (30)"
+    ]
+  },
+  {
+    "id": "118765908",
+    "name": "Squid Dash",
+    "creator": "jaizereal",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "21337579",
+    "name": "Gold Temple",
+    "creator": "Serponge",
+    "online_attempts": 529,
+    "copy_attempts": 0,
+    "total_attempts": 529,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (529)"
+    ]
+  },
+  {
+    "id": "100483402",
+    "name": "Lazy Bones Show",
+    "creator": "Syrosvich",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "114652585",
+    "name": "K A C A",
+    "creator": "R1N3Y",
+    "online_attempts": 290,
+    "copy_attempts": 0,
+    "total_attempts": 290,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (290)"
+    ]
+  },
+  {
+    "id": "119544028",
+    "name": "Thinking Space II",
+    "creator": "CairoX",
+    "online_attempts": 21,
+    "copy_attempts": 1128,
+    "total_attempts": 1149,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (21)",
+      "Thinking Space II 2 (1128)"
+    ]
+  },
+  {
+    "id": "68647222",
+    "name": "Frame perfect x5",
+    "creator": "IiISwiftIiI",
+    "online_attempts": 26,
+    "copy_attempts": 0,
+    "total_attempts": 26,
+    "progress": 11,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (26)"
+    ]
+  },
+  {
+    "id": "67224617",
+    "name": "Stereo madness but",
+    "creator": "IiISwiftIiI",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 62,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "66811136",
+    "name": "Live your dream",
+    "creator": "IiISwiftIiI",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 9,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "121857304",
+    "name": "platformerpaultame",
+    "creator": "paultame",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "54953085",
+    "name": "Thinking Space",
+    "creator": "Atomic",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "90000135",
+    "name": "Paracosm",
+    "creator": "UsteX",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 18,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "11588490",
+    "name": "Ultra Paracosm",
+    "creator": "iIiRulasiIi",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 28,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "79539185",
+    "name": "Grief",
+    "creator": "illuki",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "105593215",
+    "name": "ORDINARY",
+    "creator": "vit12",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "112313819",
+    "name": "Anathema",
+    "creator": "nikroplays",
+    "online_attempts": 253,
+    "copy_attempts": 0,
+    "total_attempts": 253,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (253)"
+    ]
+  },
+  {
+    "id": "75462015",
+    "name": "Home",
+    "creator": "Onvil",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "59533451",
+    "name": "Azurite",
+    "creator": "royen",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "76799716",
+    "name": "Virtualization",
+    "creator": "Splinter25",
+    "online_attempts": 144,
+    "copy_attempts": 0,
+    "total_attempts": 144,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (144)"
+    ]
+  },
+  {
+    "id": "76564776",
+    "name": "weird",
+    "creator": "llertt",
+    "online_attempts": 131,
+    "copy_attempts": 0,
+    "total_attempts": 131,
+    "progress": 7,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (131)"
+    ]
+  },
+  {
+    "id": "96973689",
+    "name": "BITBLEXIT",
+    "creator": "Alphirox",
+    "online_attempts": 122,
+    "copy_attempts": 567,
+    "total_attempts": 689,
+    "progress": 16,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (122)",
+      "BITBLEXIT 2 (567)"
+    ]
+  },
+  {
+    "id": "71107449",
+    "name": "Cold Sweat II",
+    "creator": "realwhata",
+    "online_attempts": 148,
+    "copy_attempts": 0,
+    "total_attempts": 148,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (148)"
+    ]
+  },
+  {
+    "id": "71534654",
+    "name": "firework",
+    "creator": "endevvor",
+    "online_attempts": 426,
+    "copy_attempts": 0,
+    "total_attempts": 426,
+    "progress": 2,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (426)"
+    ]
+  },
+  {
+    "id": "64246771",
+    "name": "Shiver",
+    "creator": "DienID",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 6,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "76962930",
+    "name": "Sakupen Circles",
+    "creator": "TheDiamondPizza",
+    "online_attempts": 16,
+    "copy_attempts": 0,
+    "total_attempts": 16,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": [
+      "online (16)"
+    ]
+  },
+  {
+    "id": "101478916",
+    "name": "Eon",
+    "creator": "Renn241",
+    "online_attempts": 244,
+    "copy_attempts": 0,
+    "total_attempts": 244,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (244)"
+    ]
+  },
+  {
+    "id": "105018739",
+    "name": "Neon Mixtape Tour",
+    "creator": "TwisterDude161",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "110991117",
+    "name": "Waterfall",
+    "creator": "cherryteam",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "62499299",
+    "name": "Firework",
+    "creator": "cherryteam",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "26727028",
+    "name": "InsanitY",
+    "creator": "Serponge",
+    "online_attempts": 1228,
+    "copy_attempts": 0,
+    "total_attempts": 1228,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (1228)"
+    ]
+  },
+  {
+    "id": "21761387",
+    "name": "Bloodbath Z",
+    "creator": "Zyzyx",
+    "online_attempts": 1666,
+    "copy_attempts": 0,
+    "total_attempts": 1666,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1666)"
+    ]
+  },
+  {
+    "id": "1325476",
+    "name": "The real Flappy Bird",
+    "creator": "Michigun",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 8,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "1840177",
+    "name": "dorabaethank you",
+    "creator": "DORABAE",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "545500",
+    "name": "dorabaebasic",
+    "creator": "DORABAE",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "161639",
+    "name": "dorabae find way",
+    "creator": "DORABAE",
+    "online_attempts": 11,
+    "copy_attempts": 0,
+    "total_attempts": 11,
+    "progress": 15,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (11)"
+    ]
+  },
+  {
+    "id": "132829",
+    "name": "Dorabae easy world",
+    "creator": "DORABAE",
+    "online_attempts": 19,
+    "copy_attempts": 0,
+    "total_attempts": 19,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (19)"
+    ]
+  },
+  {
+    "id": "135418",
+    "name": "dorabae choose way",
+    "creator": "DORABAE",
+    "online_attempts": 8,
+    "copy_attempts": 0,
+    "total_attempts": 8,
+    "progress": 29,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (8)"
+    ]
+  },
+  {
+    "id": "168488",
+    "name": "dorabae easy world2",
+    "creator": "DORABAE",
+    "online_attempts": 8,
+    "copy_attempts": 0,
+    "total_attempts": 8,
+    "progress": 52,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (8)"
+    ]
+  },
+  {
+    "id": "109162755",
+    "name": null,
+    "creator": "Danke",
+    "online_attempts": 107,
+    "copy_attempts": 0,
+    "total_attempts": 107,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (107)"
+    ]
+  },
+  {
+    "id": "9223838",
+    "name": "clubstep copyable",
+    "creator": "IlNovalI",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 11,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "113172310",
+    "name": "Determination",
+    "creator": "Jax",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "4125776",
+    "name": "Silent clubstep",
+    "creator": "TheRealSailent",
+    "online_attempts": 14,
+    "copy_attempts": 0,
+    "total_attempts": 14,
+    "progress": 2,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (14)"
+    ]
+  },
+  {
+    "id": "14633236",
+    "name": "electonic adventure",
+    "creator": "Cosmic Rose",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "9984179",
+    "name": "ToE 2 copyable",
+    "creator": "HeLLCaT120",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "118509879",
+    "name": "Skeletal Shenanigans",
+    "creator": "YoReid",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "115047336",
+    "name": "BUTTON MASHER",
+    "creator": "ViPriN",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "123247",
+    "name": "Clutterfunk V2",
+    "creator": "DemonBestGG",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "73667628",
+    "name": "Acheron",
+    "creator": "ryamu",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "60887211",
+    "name": "Ultra violence",
+    "creator": "Xender Game",
+    "online_attempts": 1238,
+    "copy_attempts": 0,
+    "total_attempts": 1238,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1238)"
+    ]
+  },
+  {
+    "id": "109780665",
+    "name": "Nullscapes",
+    "creator": "ItzKiba",
+    "online_attempts": 170,
+    "copy_attempts": 1361,
+    "total_attempts": 1531,
+    "progress": 5,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (170)",
+      "Nullscapes 2 (1361)"
+    ]
+  },
+  {
+    "id": "109796555",
+    "name": "Nullscapes Hold",
+    "creator": "Benyamin90",
+    "online_attempts": 62,
+    "copy_attempts": 0,
+    "total_attempts": 62,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (62)"
+    ]
+  },
+  {
+    "id": "109867091",
+    "name": "Nullscapes easy",
+    "creator": "kitakitaDLGD",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "124292816",
+    "name": "Logertium",
+    "creator": "UNKNOWMYT31",
+    "online_attempts": 48,
+    "copy_attempts": 0,
+    "total_attempts": 48,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (48)"
+    ]
+  },
+  {
+    "id": "27786218",
+    "name": "Mechanical Showdown",
+    "creator": "Tongii",
+    "online_attempts": 681,
+    "copy_attempts": 0,
+    "total_attempts": 681,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (681)"
+    ]
+  },
+  {
+    "id": "68675861",
+    "name": "Congregation auto",
+    "creator": "bizuga",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "125070012",
+    "name": "The Towerverse II",
+    "creator": "16lord",
+    "online_attempts": 62,
+    "copy_attempts": 0,
+    "total_attempts": 62,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (62)"
+    ]
+  },
+  {
+    "id": "125016695",
+    "name": "Fantasy Fairies",
+    "creator": "wspRocky",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "15855959",
+    "name": "Psychosis",
+    "creator": "Hinds",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "27580467",
+    "name": "Hatred",
+    "creator": "AZuLer4",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "6939821",
+    "name": "Jawbreaker",
+    "creator": "ZenthicAlpha",
+    "online_attempts": 0,
+    "copy_attempts": 2983,
+    "total_attempts": 2983,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Jawbreaker 2 (2983)"
+    ]
+  },
+  {
+    "id": "26759862",
+    "name": "Every GD Level Ever",
+    "creator": "Zyzyx",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "120140264",
+    "name": "The Farm Song",
+    "creator": "BadTheHated",
+    "online_attempts": 19,
+    "copy_attempts": 0,
+    "total_attempts": 19,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (19)"
+    ]
+  },
+  {
+    "id": "106149240",
+    "name": "Switch Garden",
+    "creator": "ItIsNix",
+    "online_attempts": 22,
+    "copy_attempts": 0,
+    "total_attempts": 22,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (22)"
+    ]
+  },
+  {
+    "id": "68846610",
+    "name": "BEEEEEEEEEEEEEEEEEES",
+    "creator": "BridgetTheCroco",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": []
+  },
+  {
+    "id": "105541507",
+    "name": "Stirling Moss",
+    "creator": "creatorshaggy",
+    "online_attempts": 24,
+    "copy_attempts": 0,
+    "total_attempts": 24,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (24)"
+    ]
+  },
+  {
+    "id": "116437829",
+    "name": "Cherry Tree",
+    "creator": "clmaxi",
+    "online_attempts": 18,
+    "copy_attempts": 0,
+    "total_attempts": 18,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (18)"
+    ]
+  },
+  {
+    "id": "110290111",
+    "name": "Spire of Arcanum",
+    "creator": "thejshadow",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": []
+  },
+  {
+    "id": "103602186",
+    "name": "Anarchy Road",
+    "creator": "Komatic5",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "105945506",
+    "name": "Out of This World",
+    "creator": "Perox8",
+    "online_attempts": 325,
+    "copy_attempts": 0,
+    "total_attempts": 325,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (325)"
+    ]
+  },
+  {
+    "id": "102265892",
+    "name": "Sonic Wave Unlimited",
+    "creator": "zNotNinja",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "75603568",
+    "name": "Tabasco",
+    "creator": "talia",
+    "online_attempts": 79,
+    "copy_attempts": 0,
+    "total_attempts": 79,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (79)"
+    ]
+  },
+  {
+    "id": "89984497",
+    "name": "Death Moon StartPos",
+    "creator": "GDDPOfficial",
+    "online_attempts": 25,
+    "copy_attempts": 0,
+    "total_attempts": 25,
+    "progress": 18,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (25)"
+    ]
+  },
+  {
+    "id": "89979607",
+    "name": "STARPUNK StartPos",
+    "creator": "GDDPOfficial",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "109274356",
+    "name": "Schrodingers Gibbage",
+    "creator": "SumPlusWord",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "50026818",
+    "name": "Overlord",
+    "creator": "Kohtpojiep",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 5,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "11849346",
+    "name": null,
+    "creator": "Migueword",
+    "online_attempts": 655,
+    "copy_attempts": 0,
+    "total_attempts": 655,
+    "progress": 9,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (655)"
+    ]
+  },
+  {
+    "id": "89978843",
+    "name": "iS StartPos",
+    "creator": "GDDPOfficial",
+    "online_attempts": 9,
+    "copy_attempts": 0,
+    "total_attempts": 9,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (9)"
+    ]
+  },
+  {
+    "id": "114703942",
+    "name": "Game Over",
+    "creator": "Optation",
+    "online_attempts": 145,
+    "copy_attempts": 0,
+    "total_attempts": 145,
+    "progress": 3,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (145)"
+    ]
+  },
+  {
+    "id": "28250365",
+    "name": "Sonic wave noclip",
+    "creator": "Unary",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "17606039",
+    "name": "I Dream in Pixels",
+    "creator": "Metalface221",
+    "online_attempts": 0,
+    "copy_attempts": 9727,
+    "total_attempts": 9727,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "I Dream in Pixels 2 (9727)"
+    ]
+  },
+  {
+    "id": "103347966",
+    "name": "future funk iii     ",
+    "creator": "JonathanGD",
+    "online_attempts": 309,
+    "copy_attempts": 0,
+    "total_attempts": 309,
+    "progress": 10,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (309)"
+    ]
+  },
+  {
+    "id": "61778698",
+    "name": "Good Life",
+    "creator": "TheExtremeDark",
+    "online_attempts": 627,
+    "copy_attempts": 0,
+    "total_attempts": 627,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (627)"
+    ]
+  },
+  {
+    "id": "91146993",
+    "name": "bims level",
+    "creator": "Bimms",
+    "online_attempts": 853,
+    "copy_attempts": 0,
+    "total_attempts": 853,
+    "progress": 61,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (853)"
+    ]
+  },
+  {
+    "id": "151245",
+    "name": "Polargeist v01",
+    "creator": "Mixroid",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 49,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "3013070",
+    "name": "ToE II v2",
+    "creator": "IIINePtunEIII",
+    "online_attempts": 0,
+    "copy_attempts": 2898,
+    "total_attempts": 2898,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "ToE II v2 (2898)"
+    ]
+  },
+  {
+    "id": "37259527",
+    "name": "BuTiTi II",
+    "creator": "JonathanGD",
+    "online_attempts": 1329,
+    "copy_attempts": 679,
+    "total_attempts": 2008,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (1329)",
+      "BuTiTi II 2 (679)"
+    ]
+  },
+  {
+    "id": "63075323",
+    "name": "white women",
+    "creator": "heatherhayes",
+    "online_attempts": 0,
+    "copy_attempts": 2670,
+    "total_attempts": 2670,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "white women (2670)"
+    ]
+  },
+  {
+    "id": "6300721",
+    "name": "Forsaken Neon",
+    "creator": "Zobros",
+    "online_attempts": 0,
+    "copy_attempts": 2795,
+    "total_attempts": 2795,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Forsaken Neon 2 (2795)"
+    ]
+  },
+  {
+    "id": "1299298",
+    "name": "Deadly ClubStep",
+    "creator": "IIINePtunEIII",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "108507992",
+    "name": null,
+    "creator": "IlluminatyByN",
+    "online_attempts": 311,
+    "copy_attempts": 0,
+    "total_attempts": 311,
+    "progress": 17,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (311)"
+    ]
+  },
+  {
+    "id": "4957691",
+    "name": "Windy Landscape",
+    "creator": "WOOGI1411",
+    "online_attempts": 0,
+    "copy_attempts": 5577,
+    "total_attempts": 5577,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Windy Startpos 2 (5577)"
+    ]
+  },
+  {
+    "id": "77233362",
+    "name": "LiGHtmArE",
+    "creator": "eightos",
+    "online_attempts": 879,
+    "copy_attempts": 0,
+    "total_attempts": 879,
+    "progress": 6,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (879)"
+    ]
+  },
+  {
+    "id": "102135018",
+    "name": "Angelicide",
+    "creator": "lexycat",
+    "online_attempts": 1158,
+    "copy_attempts": 0,
+    "total_attempts": 1158,
+    "progress": 2,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1158)"
+    ]
+  },
+  {
+    "id": "122950089",
+    "name": "angelicide 2",
+    "creator": "lexycat",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "1",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "28220417",
+    "name": "Yatagarasu ",
+    "creator": "TrusTa",
+    "online_attempts": 0,
+    "copy_attempts": 297,
+    "total_attempts": 297,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "Yatagarasu  2 (297)"
+    ]
+  },
+  {
+    "id": "79997992",
+    "name": "Shardscapes",
+    "creator": "ItzKiba",
+    "online_attempts": 0,
+    "copy_attempts": 736,
+    "total_attempts": 736,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Shardscapes 2 (736)"
+    ]
+  },
+  {
+    "id": "12995050",
+    "name": "Silent Circles",
+    "creator": "toshey",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "12169905",
+    "name": "Silent Circles",
+    "creator": "Cyrillic",
+    "online_attempts": 283,
+    "copy_attempts": 0,
+    "total_attempts": 283,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (283)"
+    ]
+  },
+  {
+    "id": "66092652",
+    "name": " Final Destination",
+    "creator": "IcEDCave",
+    "online_attempts": 0,
+    "copy_attempts": 4,
+    "total_attempts": 4,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "Final Destination 2 (4)"
+    ]
+  },
+  {
+    "id": "34057654",
+    "name": "Black Blizzard",
+    "creator": "KrmaL",
+    "online_attempts": 90,
+    "copy_attempts": 771,
+    "total_attempts": 861,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (90)",
+      "Black Blizzard 2 (771)"
+    ]
+  },
+  {
+    "id": "80741511",
+    "name": "Floo",
+    "creator": "Lucoz",
+    "online_attempts": 59,
+    "copy_attempts": 0,
+    "total_attempts": 59,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (59)"
+    ]
+  },
+  {
+    "id": "67322787",
+    "name": "hypothermia",
+    "creator": "Wuro",
+    "online_attempts": 12,
+    "copy_attempts": 965,
+    "total_attempts": 977,
+    "progress": 41,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (12)",
+      "hypothermia 2 (965)"
+    ]
+  },
+  {
+    "id": "125617849",
+    "name": "Dark Dimension",
+    "creator": "ThePurgatory",
+    "online_attempts": 0,
+    "copy_attempts": 516,
+    "total_attempts": 516,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "Dark Dimension 2 (516)"
+    ]
+  },
+  {
+    "id": "126535682",
+    "name": "White Abyss",
+    "creator": "Lights2419",
+    "online_attempts": 0,
+    "copy_attempts": 2330,
+    "total_attempts": 2330,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "White Abyss 2 (2330)"
+    ]
+  },
+  {
+    "id": "85695827",
+    "name": "Iodine",
+    "creator": "Sr3k",
+    "online_attempts": 237,
+    "copy_attempts": 0,
+    "total_attempts": 237,
+    "progress": 9,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (237)"
+    ]
+  },
+  {
+    "id": "56069688",
+    "name": "DIAMOND BLADE",
+    "creator": "IcEDCave",
+    "online_attempts": 233,
+    "copy_attempts": 185,
+    "total_attempts": 418,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (233)",
+      "DIAMOND BLADE 2 (185)"
+    ]
+  },
+  {
+    "id": "64530439",
+    "name": "Crystal Edge",
+    "creator": "IcEDCave",
+    "online_attempts": 503,
+    "copy_attempts": 1137,
+    "total_attempts": 1640,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (503)",
+      "Crystal Edge 2 (1137)"
+    ]
+  },
+  {
+    "id": "126539075",
+    "name": "Eta Carnis",
+    "creator": "GloryEX",
+    "online_attempts": 20,
+    "copy_attempts": 0,
+    "total_attempts": 20,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (20)"
+    ]
+  },
+  {
+    "id": "120255728",
+    "name": "Sevvend Clubstep",
+    "creator": "cherryteam",
+    "online_attempts": 60,
+    "copy_attempts": 0,
+    "total_attempts": 60,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (60)"
+    ]
+  },
+  {
+    "id": "124707379",
+    "name": "Sevvend Clubstep Aut",
+    "creator": "KalZyx",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "95493876",
+    "name": "lobster pizza",
+    "creator": "coolboymoney123",
+    "online_attempts": 112,
+    "copy_attempts": 0,
+    "total_attempts": 112,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (112)"
+    ]
+  },
+  {
+    "id": "112975362",
+    "name": "Eon final",
+    "creator": "Sofia099uwu",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "58578389",
+    "name": "Khorne",
+    "creator": "Stilluetto",
+    "online_attempts": 287,
+    "copy_attempts": 0,
+    "total_attempts": 287,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (287)"
+    ]
+  },
+  {
+    "id": "93733472",
+    "name": "Khorne",
+    "creator": "sparktwo",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": []
+  },
+  {
+    "id": "131209618",
+    "name": "Groovy Hues",
+    "creator": "MorphsGaming",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": []
+  },
+  {
+    "id": "60619762",
+    "name": "Denouement",
+    "creator": "Synactive GD",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "89392722",
+    "name": "Funky Punky LY",
+    "creator": "as7rea",
+    "online_attempts": 10,
+    "copy_attempts": 0,
+    "total_attempts": 10,
+    "progress": 3,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (10)"
+    ]
+  },
+  {
+    "id": "17739667",
+    "name": "skill test",
+    "creator": "dougier2",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "1",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "127401310",
+    "name": "The Skill Tester",
+    "creator": "XcreatorGoal",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "69010770",
+    "name": "Dark Odyssey",
+    "creator": "JonathanGD",
+    "online_attempts": 217,
+    "copy_attempts": 0,
+    "total_attempts": 217,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (217)"
+    ]
+  },
+  {
+    "id": "18697406",
+    "name": "Retention",
+    "creator": "WOOGI1411",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "1360404",
+    "name": "Demon in the house",
+    "creator": "catgirlBlitz",
+    "online_attempts": 143,
+    "copy_attempts": 0,
+    "total_attempts": 143,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (143)"
+    ]
+  },
+  {
+    "id": "38514054",
+    "name": "Buried Angel",
+    "creator": "f3lixsram",
+    "online_attempts": 71,
+    "copy_attempts": 0,
+    "total_attempts": 71,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (71)"
+    ]
+  },
+  {
+    "id": "57664873",
+    "name": "Cirno",
+    "creator": "Shemo",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "10065112",
+    "name": "The end of the world",
+    "creator": "Draykonic",
+    "online_attempts": 20,
+    "copy_attempts": 0,
+    "total_attempts": 20,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (20)"
+    ]
+  },
+  {
+    "id": "63915746",
+    "name": "The End",
+    "creator": "Zylenox",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "134347975",
+    "name": "sigma bottom",
+    "creator": "FroxyPlay",
+    "online_attempts": 68,
+    "copy_attempts": 0,
+    "total_attempts": 68,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (68)"
+    ]
+  },
+  {
+    "id": "77236587",
+    "name": "Stereo Madness",
+    "creator": "RobsVault",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "77236588",
+    "name": "Back on Track",
+    "creator": "RobsVault",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "89652282",
+    "name": "CHALK",
+    "creator": "BrainETR",
+    "online_attempts": 54,
+    "copy_attempts": 0,
+    "total_attempts": 54,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (54)"
+    ]
+  },
+  {
+    "id": "77243245",
+    "name": "The Challenge",
+    "creator": "RobsVault",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "1",
+    "sources": []
+  },
+  {
+    "id": "134634110",
+    "name": "BIRDBRAIN",
+    "creator": "aPunch",
+    "online_attempts": 25,
+    "copy_attempts": 0,
+    "total_attempts": 25,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (25)"
+    ]
+  },
+  {
+    "id": "124192839",
+    "name": "Machine Love",
+    "creator": "OlinN",
+    "online_attempts": 47,
+    "copy_attempts": 0,
+    "total_attempts": 47,
+    "progress": 16,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (47)"
+    ]
+  },
+  {
+    "id": "77875682",
+    "name": "MINUS WORLD",
+    "creator": "IcEDCave",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "68408784",
+    "name": "Temple of Time",
+    "creator": "DavJT",
+    "online_attempts": 63,
+    "copy_attempts": 0,
+    "total_attempts": 63,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (63)"
+    ]
+  },
+  {
+    "id": "65044525",
+    "name": "CastleMania",
+    "creator": "Serponge",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "29443338",
+    "name": "TOE III",
+    "creator": "Manix648",
+    "online_attempts": 198,
+    "copy_attempts": 0,
+    "total_attempts": 198,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (198)"
+    ]
+  },
+  {
+    "id": "97740305",
+    "name": "bims platformer",
+    "creator": "Bimms",
+    "online_attempts": 19,
+    "copy_attempts": 0,
+    "total_attempts": 19,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "5",
+    "sources": [
+      "online (19)"
+    ]
+  },
+  {
+    "id": "80558722",
+    "name": "DoubleBath",
+    "creator": "Bimms",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 8,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "62912799",
+    "name": "Ashley Wave Trials",
+    "creator": "OddMod",
+    "online_attempts": 53,
+    "copy_attempts": 0,
+    "total_attempts": 53,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (53)"
+    ]
+  },
+  {
+    "id": "76543324",
+    "name": "Verdant Landscape",
+    "creator": "ItzNisha",
+    "online_attempts": 19,
+    "copy_attempts": 0,
+    "total_attempts": 19,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (19)"
+    ]
+  },
+  {
+    "id": "3081555",
+    "name": "Chaoz Impact",
+    "creator": "TheRealDarnoc",
+    "online_attempts": 6,
+    "copy_attempts": 0,
+    "total_attempts": 6,
+    "progress": 6,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (6)"
+    ]
+  },
+  {
+    "id": "2891681",
+    "name": "Shadow Temple",
+    "creator": "Michigun",
+    "online_attempts": 6,
+    "copy_attempts": 0,
+    "total_attempts": 6,
+    "progress": 8,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (6)"
+    ]
+  },
+  {
+    "id": "76931927",
+    "name": "I NEVER DREAM",
+    "creator": "skywalker14",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "8147005",
+    "name": "Down Bass",
+    "creator": "Spectruh",
+    "online_attempts": 20,
+    "copy_attempts": 0,
+    "total_attempts": 20,
+    "progress": 5,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (20)"
+    ]
+  },
+  {
+    "id": "123617195",
+    "name": "ALLOY",
+    "creator": "Crysticai",
+    "online_attempts": 96,
+    "copy_attempts": 0,
+    "total_attempts": 96,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (96)"
+    ]
+  },
+  {
+    "id": "68061608",
+    "name": null,
+    "creator": "iriswolfx",
+    "online_attempts": 58,
+    "copy_attempts": 0,
+    "total_attempts": 58,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (58)"
+    ]
+  },
+  {
+    "id": "70059",
+    "name": "yStep",
+    "creator": "TheRealDarnoc",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "186646",
+    "name": "Crescendo",
+    "creator": "MasK463",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "369294",
+    "name": "Theory of every v2",
+    "creator": "IIINePtunEIII",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "102879939",
+    "name": "HELIOPOLIS hold",
+    "creator": "BLXXXSKXXX",
+    "online_attempts": 9,
+    "copy_attempts": 0,
+    "total_attempts": 9,
+    "progress": 83,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (9)"
+    ]
+  },
+  {
+    "id": "24301797",
+    "name": "Falling Up",
+    "creator": "KrmaL",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "130664522",
+    "name": "Angelicide StartPos",
+    "creator": "GDDPOfficial",
+    "online_attempts": 11,
+    "copy_attempts": 0,
+    "total_attempts": 11,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (11)"
+    ]
+  },
+  {
+    "id": "133953231",
+    "name": "Cartash",
+    "creator": "16lord",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "135238846",
+    "name": "One Card Trick",
+    "creator": "farstove",
+    "online_attempts": 5,
+    "copy_attempts": 0,
+    "total_attempts": 5,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (5)"
+    ]
+  },
+  {
+    "id": "135177546",
+    "name": "Kalpa",
+    "creator": "Twandash",
+    "online_attempts": 11,
+    "copy_attempts": 0,
+    "total_attempts": 11,
+    "progress": 9,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (11)"
+    ]
+  },
+  {
+    "id": "72315402",
+    "name": "arcturus",
+    "creator": "maxfs",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 2,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "54588072",
+    "name": "INNARDS",
+    "creator": "Kaito",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 3,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "27143567",
+    "name": "Voyager",
+    "creator": "nasgubb",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 4,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "31462941",
+    "name": "Erebus",
+    "creator": "BoldStep",
+    "online_attempts": 8,
+    "copy_attempts": 0,
+    "total_attempts": 8,
+    "progress": 3,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (8)"
+    ]
+  },
+  {
+    "id": "73725400",
+    "name": "CraZy III",
+    "creator": "DavJT",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "111286661",
+    "name": "MUNDUS SANGUINANS",
+    "creator": "1MadJack1",
+    "online_attempts": 64,
+    "copy_attempts": 0,
+    "total_attempts": 64,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (64)"
+    ]
+  },
+  {
+    "id": "82622155",
+    "name": "HEAT",
+    "creator": "BrainETR",
+    "online_attempts": 55,
+    "copy_attempts": 0,
+    "total_attempts": 55,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (55)"
+    ]
+  },
+  {
+    "id": "71565140",
+    "name": "IWannaKillTheKamilia",
+    "creator": "JuNiOr202",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "19938923",
+    "name": "Spam challenge",
+    "creator": " Adurite",
+    "online_attempts": 42,
+    "copy_attempts": 0,
+    "total_attempts": 42,
+    "progress": 43,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (42)"
+    ]
+  },
+  {
+    "id": "136492201",
+    "name": null,
+    "creator": "UNKNOWMYT31",
+    "online_attempts": 258,
+    "copy_attempts": 0,
+    "total_attempts": 258,
+    "progress": 12,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (258)"
+    ]
+  },
+  {
+    "id": "96925389",
+    "name": "Exodium Cluster",
+    "creator": "ElMatoSWAG",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "91055359",
+    "name": "Sunken Polis",
+    "creator": "Starbom",
+    "online_attempts": 110,
+    "copy_attempts": 0,
+    "total_attempts": 110,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (110)"
+    ]
+  },
+  {
+    "id": "133652745",
+    "name": "Atomospheric",
+    "creator": "Katas",
+    "online_attempts": 38,
+    "copy_attempts": 0,
+    "total_attempts": 38,
+    "progress": 3,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (38)"
+    ]
+  },
+  {
+    "id": "120995863",
+    "name": "random wave mix",
+    "creator": "ijacek",
+    "online_attempts": 235,
+    "copy_attempts": 0,
+    "total_attempts": 235,
+    "progress": 99,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (235)"
+    ]
+  },
+  {
+    "id": "99067301",
+    "name": "Random Frame Perfec2",
+    "creator": "Chrisuhan",
+    "online_attempts": 40,
+    "copy_attempts": 0,
+    "total_attempts": 40,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (40)"
+    ]
+  },
+  {
+    "id": "99020478",
+    "name": "Random Frame Perfect",
+    "creator": "Chrisuhan",
+    "online_attempts": 63,
+    "copy_attempts": 0,
+    "total_attempts": 63,
+    "progress": 49,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (63)"
+    ]
+  },
+  {
+    "id": "113057730",
+    "name": "Random Frame Perfect",
+    "creator": "ChocolateW",
+    "online_attempts": 72,
+    "copy_attempts": 0,
+    "total_attempts": 72,
+    "progress": 52,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (72)"
+    ]
+  },
+  {
+    "id": "117838833",
+    "name": "Random Frame Perfec3",
+    "creator": "aolskzz",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 12,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "81636212",
+    "name": "TRIANGULAR",
+    "creator": "zNickname",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "71572193",
+    "name": "Gang",
+    "creator": "Doggie",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "137122030",
+    "name": "Amythest",
+    "creator": "sparktwo",
+    "online_attempts": 20,
+    "copy_attempts": 0,
+    "total_attempts": 20,
+    "progress": 58,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (20)"
+    ]
+  },
+  {
+    "id": "123859299",
+    "name": "Random Ending Mix",
+    "creator": "DuckMcFuddle",
+    "online_attempts": 153,
+    "copy_attempts": 0,
+    "total_attempts": 153,
+    "progress": 37,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (153)"
+    ]
+  },
+  {
+    "id": "129429313",
+    "name": "Warden",
+    "creator": "ToyfoxGD",
+    "online_attempts": 23,
+    "copy_attempts": 0,
+    "total_attempts": 23,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (23)"
+    ]
+  },
+  {
+    "id": "137404713",
+    "name": "Quadrange",
+    "creator": "wdlucas",
+    "online_attempts": 27,
+    "copy_attempts": 0,
+    "total_attempts": 27,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (27)"
+    ]
+  },
+  {
+    "id": "86522027",
+    "name": "Kororinpa",
+    "creator": "MarkyArchived",
+    "online_attempts": 5,
+    "copy_attempts": 0,
+    "total_attempts": 5,
+    "progress": 10,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (5)"
+    ]
+  },
+  {
+    "id": "137547461",
+    "name": "Destiny",
+    "creator": "YunHaSeu14",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "137734307",
+    "name": "Sunburn",
+    "creator": "Twistaah",
+    "online_attempts": 26,
+    "copy_attempts": 0,
+    "total_attempts": 26,
+    "progress": 56,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": [
+      "online (26)"
+    ]
+  },
+  {
+    "id": "75736884",
+    "name": "Yatagarasu Easy",
+    "creator": "Vali152",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "137118572",
+    "name": "Dream World",
+    "creator": "Jasii",
+    "online_attempts": 11,
+    "copy_attempts": 0,
+    "total_attempts": 11,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": [
+      "online (11)"
+    ]
+  },
+  {
+    "id": "138212893",
+    "name": "Scorched Scalp",
+    "creator": "Polarbeahr",
+    "online_attempts": 62,
+    "copy_attempts": 0,
+    "total_attempts": 62,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": [
+      "online (62)"
+    ]
+  },
+  {
+    "id": "137965028",
+    "name": "forever",
+    "creator": "tiwii",
+    "online_attempts": 5,
+    "copy_attempts": 0,
+    "total_attempts": 5,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (5)"
+    ]
+  },
+  {
+    "id": "76582313",
+    "name": "The Long Walk Home",
+    "creator": "Renn241",
+    "online_attempts": 13,
+    "copy_attempts": 0,
+    "total_attempts": 13,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (13)"
+    ]
+  },
+  {
+    "id": "72394641",
+    "name": "By Day By Night",
+    "creator": "Vicolor",
+    "online_attempts": 122,
+    "copy_attempts": 0,
+    "total_attempts": 122,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (122)"
+    ]
+  },
+  {
+    "id": "13643591",
+    "name": "Ultra Drivers",
+    "creator": "LazerBlitz",
+    "online_attempts": 0,
+    "copy_attempts": 2322,
+    "total_attempts": 2322,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Ultra Drivers 2 (2322)"
+    ]
+  },
+  {
+    "id": "7018102",
+    "name": "Silhouette",
+    "creator": "Havok",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "78614226",
+    "name": "Silent Clubstep II",
+    "creator": "TheRealSailent",
+    "online_attempts": 58,
+    "copy_attempts": 0,
+    "total_attempts": 58,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (58)"
+    ]
+  },
+  {
+    "id": "86880648",
+    "name": "Common s3nse",
+    "creator": "LEALHALZITX",
+    "online_attempts": 62,
+    "copy_attempts": 0,
+    "total_attempts": 62,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (62)"
+    ]
+  },
+  {
+    "id": "67904095",
+    "name": "PsyWorm",
+    "creator": "IvashkaUA",
+    "online_attempts": 81,
+    "copy_attempts": 0,
+    "total_attempts": 81,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (81)"
+    ]
+  },
+  {
+    "id": "97557632",
+    "name": "Clubstep",
+    "creator": "GDDPOfficial",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "97557638",
+    "name": "ToE 2",
+    "creator": "GDDPOfficial",
+    "online_attempts": 6,
+    "copy_attempts": 0,
+    "total_attempts": 6,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (6)"
+    ]
+  },
+  {
+    "id": "13408975",
+    "name": "Alive",
+    "creator": "KrmaL",
+    "online_attempts": 13,
+    "copy_attempts": 0,
+    "total_attempts": 13,
+    "progress": 58,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (13)"
+    ]
+  },
+  {
+    "id": "78079575",
+    "name": "Fratura",
+    "creator": "joojmiguel",
+    "online_attempts": 86,
+    "copy_attempts": 0,
+    "total_attempts": 86,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (86)"
+    ]
+  },
+  {
+    "id": "62809982",
+    "name": "Thanatophobia",
+    "creator": "ARtu",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "138615726",
+    "name": "GLUNGUS ADVENTURES",
+    "creator": "Bimms",
+    "online_attempts": 99,
+    "copy_attempts": 0,
+    "total_attempts": 99,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (99)"
+    ]
+  },
+  {
+    "id": "67069282",
+    "name": "Swirling Fire",
+    "creator": "Jenkins",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "96314787",
+    "name": "Deadlier Clubstep",
+    "creator": "herozombie80",
+    "online_attempts": 63,
+    "copy_attempts": 0,
+    "total_attempts": 63,
+    "progress": 2,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (63)"
+    ]
+  },
+  {
+    "id": "9700312",
+    "name": "Crimson Clutter",
+    "creator": "RedUniverse",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "69333212",
+    "name": "Promethean",
+    "creator": "EndLevel",
+    "online_attempts": 46,
+    "copy_attempts": 0,
+    "total_attempts": 46,
+    "progress": 2,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": [
+      "online (46)"
+    ]
+  },
+  {
+    "id": "5310094",
+    "name": "Fairydust",
+    "creator": "mkComic",
+    "online_attempts": 0,
+    "copy_attempts": 3953,
+    "total_attempts": 3953,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Fairydust 2 (2223)",
+      "Fairydust (1730)"
+    ]
+  },
+  {
+    "id": "112992136",
+    "name": "Sonic Wave StartPos",
+    "creator": "Nayloren",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "86300378",
+    "name": "Fairydust start pos",
+    "creator": "Govii",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "94836788",
+    "name": "Fairydust Start Pos",
+    "creator": "Spyromaniacc",
+    "online_attempts": 51,
+    "copy_attempts": 0,
+    "total_attempts": 51,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (51)"
+    ]
+  },
+  {
+    "id": "113862452",
+    "name": "Fairydust start pos",
+    "creator": "STUBBYSTUBgd",
+    "online_attempts": 45,
+    "copy_attempts": 0,
+    "total_attempts": 45,
+    "progress": 8,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (45)"
+    ]
+  },
+  {
+    "id": "137892797",
+    "name": "Caramel Rush",
+    "creator": "ConcernedRush",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "138727612",
+    "name": "Compress",
+    "creator": "seacobble",
+    "online_attempts": 12,
+    "copy_attempts": 0,
+    "total_attempts": 12,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (12)"
+    ]
+  },
+  {
+    "id": "138561768",
+    "name": "Hairless Adventure",
+    "creator": "truongwf",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "139356225",
+    "name": "OMG GG ON MOD OROTS",
+    "creator": "kwoob",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "56568010",
+    "name": "Magma Bound",
+    "creator": "ScorchVx",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "7054561",
+    "name": "Poltergeist",
+    "creator": "Andromeda GMD",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "58069223",
+    "name": "Gunslinga Corridor",
+    "creator": "zEvilPrisma",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "13457056",
+    "name": "Plasma Pulse II",
+    "creator": "Giron",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "48175126",
+    "name": "Idols",
+    "creator": "Zafkiel7",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "104151099",
+    "name": "Lucy",
+    "creator": "Lyal",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "139477764",
+    "name": "nom nom nom",
+    "creator": "puddii",
+    "online_attempts": 11,
+    "copy_attempts": 0,
+    "total_attempts": 11,
+    "progress": 41,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (11)"
+    ]
+  },
+  {
+    "id": "136896721",
+    "name": "CRASH",
+    "creator": "sink",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 8,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "26662579",
+    "name": "Hollow",
+    "creator": "Pauze",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "60387034",
+    "name": "Libertas",
+    "creator": "WOOGI1411",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "25147297",
+    "name": "hi",
+    "creator": "KrmaL",
+    "online_attempts": 334,
+    "copy_attempts": 0,
+    "total_attempts": 334,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (334)"
+    ]
+  },
+  {
+    "id": "43993525",
+    "name": "Khorne ",
+    "creator": "hota1991",
+    "online_attempts": 9,
+    "copy_attempts": 0,
+    "total_attempts": 9,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (9)"
+    ]
+  },
+  {
+    "id": "56132712",
+    "name": "Khorne Full",
+    "creator": "TiO2",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "139091894",
+    "name": "Toxic rush",
+    "creator": "Gks77",
+    "online_attempts": 29,
+    "copy_attempts": 0,
+    "total_attempts": 29,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (29)"
+    ]
+  },
+  {
+    "id": "11607707",
+    "name": "Dance Massacre",
+    "creator": "Hinds",
+    "online_attempts": 0,
+    "copy_attempts": 3787,
+    "total_attempts": 3787,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Dance Massacre 2 (3787)"
+    ]
+  },
+  {
+    "id": "141186453",
+    "name": "coolskeleton95",
+    "creator": "BrokenMusicBox",
+    "online_attempts": 37,
+    "copy_attempts": 0,
+    "total_attempts": 37,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (37)"
+    ]
+  },
+  {
+    "id": "141653402",
+    "name": "All or Nothing",
+    "creator": "Silvow",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 59,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "2",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "108673399",
+    "name": "Summer Gallery",
+    "creator": "Holographer",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 19,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "117692518",
+    "name": "Quanteuse processing",
+    "creator": "Renn241",
+    "online_attempts": 19,
+    "copy_attempts": 0,
+    "total_attempts": 19,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (19)"
+    ]
+  },
+  {
+    "id": "133175713",
+    "name": "ORBIT",
+    "creator": "MindCap",
+    "online_attempts": 28,
+    "copy_attempts": 0,
+    "total_attempts": 28,
+    "progress": 1,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (28)"
+    ]
+  },
+  {
+    "id": "132854166",
+    "name": "Thinking Space II",
+    "creator": "CoCyMain",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "127617884",
+    "name": "Hopes and Dreams",
+    "creator": "fnafbonnie2012",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "4545425",
+    "name": "Stalemate",
+    "creator": "Nox",
+    "online_attempts": 0,
+    "copy_attempts": 793,
+    "total_attempts": 793,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "Stalemate startpos 2 (793)"
+    ]
+  },
+  {
+    "id": "122928006",
+    "name": "Sevvend Clubstep Ho",
+    "creator": "PzKpfw4",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "16463919",
+    "name": "Wave Challenge ",
+    "creator": "Dimone",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 21,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "3380100",
+    "name": "Wave Challenge",
+    "creator": "TheRealDarnoc",
+    "online_attempts": 14,
+    "copy_attempts": 0,
+    "total_attempts": 14,
+    "progress": 63,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (14)"
+    ]
+  },
+  {
+    "id": "60805571",
+    "name": "VSC",
+    "creator": "BoBoBoBoBoBoBo",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "1",
+    "sources": []
+  },
+  {
+    "id": "60834338",
+    "name": "VSC Auto",
+    "creator": "Endyz",
+    "online_attempts": 3,
+    "copy_attempts": 0,
+    "total_attempts": 3,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (3)"
+    ]
+  },
+  {
+    "id": "60897703",
+    "name": "VSC Easy",
+    "creator": "Propka11",
+    "online_attempts": 74,
+    "copy_attempts": 0,
+    "total_attempts": 74,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (74)"
+    ]
+  },
+  {
+    "id": "114532158",
+    "name": "Troll Madness",
+    "creator": "zyphur",
+    "online_attempts": 185,
+    "copy_attempts": 0,
+    "total_attempts": 185,
+    "progress": 39,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (185)"
+    ]
+  },
+  {
+    "id": "117423165",
+    "name": "windy startpos",
+    "creator": "lleellee",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "111053765",
+    "name": "windy startpos",
+    "creator": "joelkoot1",
+    "online_attempts": 14,
+    "copy_attempts": 0,
+    "total_attempts": 14,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (14)"
+    ]
+  },
+  {
+    "id": "115884557",
+    "name": "Windy Startpos",
+    "creator": "Brett0752",
+    "online_attempts": 55,
+    "copy_attempts": 0,
+    "total_attempts": 55,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (55)"
+    ]
+  },
+  {
+    "id": "38306937",
+    "name": "Buff This",
+    "creator": "BoyoftheCones",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "143925414",
+    "name": "Amiguito",
+    "creator": "ObviasV",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "141720763",
+    "name": "MICROPHONE",
+    "creator": "Masterthecube5",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "142376185",
+    "name": "cheesewheel",
+    "creator": "kwoob",
+    "online_attempts": 14,
+    "copy_attempts": 0,
+    "total_attempts": 14,
+    "progress": 49,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (14)"
+    ]
+  },
+  {
+    "id": "116196452",
+    "name": "Stalemate startpos",
+    "creator": "BogaBogaGD",
+    "online_attempts": 1,
+    "copy_attempts": 0,
+    "total_attempts": 1,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (1)"
+    ]
+  },
+  {
+    "id": "140809831",
+    "name": "ff2 startpos",
+    "creator": "ultimatemastee",
+    "online_attempts": 7,
+    "copy_attempts": 6939,
+    "total_attempts": 6946,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (7)",
+      "ff2 startpos 2 (6939)"
+    ]
+  },
+  {
+    "id": "143179176",
+    "name": "FF2 startpos",
+    "creator": "minh123123123",
+    "online_attempts": 16,
+    "copy_attempts": 0,
+    "total_attempts": 16,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (16)"
+    ]
+  },
+  {
+    "id": "148568083",
+    "name": "ff2 startpos",
+    "creator": "ItzBrezyy",
+    "online_attempts": 11,
+    "copy_attempts": 0,
+    "total_attempts": 11,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (11)"
+    ]
+  },
+  {
+    "id": "94890873",
+    "name": "Boxing Boxes",
+    "creator": "Ellisha",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "95436164",
+    "name": "GLORIOUS FORTRESS",
+    "creator": "JamAttack",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "148590045",
+    "name": "Bedtime",
+    "creator": "nasgubb",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "149725478",
+    "name": "AREA 52",
+    "creator": "AtharZGD",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "148044274",
+    "name": "V",
+    "creator": "violxts",
+    "online_attempts": 37,
+    "copy_attempts": 0,
+    "total_attempts": 37,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (37)"
+    ]
+  },
+  {
+    "id": "28200611",
+    "name": "Overture",
+    "creator": "Fault",
+    "online_attempts": 15,
+    "copy_attempts": 0,
+    "total_attempts": 15,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (15)"
+    ]
+  },
+  {
+    "id": "83313115",
+    "name": "Nivel",
+    "creator": "NeonDusk",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 12,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "90459731",
+    "name": "Subdivision Zone",
+    "creator": "DangerKat",
+    "online_attempts": 5,
+    "copy_attempts": 0,
+    "total_attempts": 5,
+    "progress": 25,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (5)"
+    ]
+  },
+  {
+    "id": "83294687",
+    "name": "Caput Mundi",
+    "creator": "RoyalP",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "18025697",
+    "name": "Sidestep",
+    "creator": "ChaSe",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "29094196",
+    "name": null,
+    "creator": "God Of Music",
+    "online_attempts": 4,
+    "copy_attempts": 0,
+    "total_attempts": 4,
+    "progress": 33,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (4)"
+    ]
+  },
+  {
+    "id": "116116117",
+    "name": null,
+    "creator": "Lyal",
+    "online_attempts": 5,
+    "copy_attempts": 0,
+    "total_attempts": 5,
+    "progress": 10,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (5)"
+    ]
+  },
+  {
+    "id": "115688378",
+    "name": null,
+    "creator": "Glubfuberz",
+    "online_attempts": 12,
+    "copy_attempts": 0,
+    "total_attempts": 12,
+    "progress": 41,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (12)"
+    ]
+  },
+  {
+    "id": "25886024",
+    "name": null,
+    "creator": "Adiale",
+    "online_attempts": 54,
+    "copy_attempts": 0,
+    "total_attempts": 54,
+    "progress": 64,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "0",
+    "sources": [
+      "online (54)"
+    ]
+  },
+  {
+    "id": "110681124",
+    "name": null,
+    "creator": "Whirl",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "28151870",
+    "name": null,
+    "creator": "Chaos",
+    "online_attempts": 28,
+    "copy_attempts": 0,
+    "total_attempts": 28,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (28)"
+    ]
+  },
+  {
+    "id": "24302376",
+    "name": null,
+    "creator": "mikeymonke",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "129492004",
+    "name": "Dimension Break",
+    "creator": "AbstractDark",
+    "online_attempts": 7,
+    "copy_attempts": 0,
+    "total_attempts": 7,
+    "progress": 100,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": [
+      "online (7)"
+    ]
+  },
+  {
+    "id": "128386467",
+    "name": null,
+    "creator": "LightPotatoDev",
+    "online_attempts": 12,
+    "copy_attempts": 0,
+    "total_attempts": 12,
+    "progress": 36,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (12)"
+    ]
+  },
+  {
+    "id": "129492629",
+    "name": null,
+    "creator": "7ak",
+    "online_attempts": 6,
+    "copy_attempts": 0,
+    "total_attempts": 6,
+    "progress": 16,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (6)"
+    ]
+  },
+  {
+    "id": "60679881",
+    "name": null,
+    "creator": "Unzor",
+    "online_attempts": 2,
+    "copy_attempts": 0,
+    "total_attempts": 2,
+    "progress": 13,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": [
+      "online (2)"
+    ]
+  },
+  {
+    "id": "90475597",
+    "name": "Seasonal Haven",
+    "creator": "AbstractDark",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "92149907",
+    "name": "Twenty Four",
+    "creator": "ZeroSR",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "93358704",
+    "name": "Swagger",
+    "creator": "Puueds",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "93314434",
+    "name": "Visual Vexation",
+    "creator": "RehanZ",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "91446932",
+    "name": "Monolithos",
+    "creator": "JonathanGD",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "96943971",
+    "name": "Tectonic Tempo",
+    "creator": "Jambees",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "87316498",
+    "name": "NEW LIGHT",
+    "creator": "cometface",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "94922475",
+    "name": "SayItBack",
+    "creator": "X1RON",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "96118566",
+    "name": "TURNING POINT",
+    "creator": "ItzKiba",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "94591772",
+    "name": "Nomostros Cosmos",
+    "creator": "GamerKnight750",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "92891999",
+    "name": "Ocellios",
+    "creator": "dolphe",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "96566713",
+    "name": "Neur Absence",
+    "creator": "cherryteam",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "94610370",
+    "name": "Ring Trick",
+    "creator": "Zoroa",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "96189372",
+    "name": "INTERFERENCE",
+    "creator": "Rifct",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "94869320",
+    "name": "carz processing",
+    "creator": "Aimbotter2123",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "92894241",
+    "name": "Atmosphere",
+    "creator": "Panya0208",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "94749416",
+    "name": "jumper copy",
+    "creator": "RobTopArchiver",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "97001775",
+    "name": "Crash Game",
+    "creator": "cherryteam",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "94353238",
+    "name": "headlock",
+    "creator": "pocke",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "96265352",
+    "name": "Atmos",
+    "creator": "Marwec",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "92957491",
+    "name": "Empyrean",
+    "creator": "Kivvvi",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "88611404",
+    "name": "NEUTRA",
+    "creator": "Jenkins",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "87665224",
+    "name": "KOCMOC",
+    "creator": "cherryteam",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "95435650",
+    "name": "Floating Outskirts",
+    "creator": "YoReid",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "89187968",
+    "name": "Edge of Destiny",
+    "creator": "CDMusic",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "93752979",
+    "name": "cytokinesis",
+    "creator": "cherryteam",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "47620786",
+    "name": "CraZy II",
+    "creator": "DavJT",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "8723596",
+    "name": "Sine Wavs",
+    "creator": "Dorami",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "28050431",
+    "name": "Clubstep Reborn",
+    "creator": "BoyoftheCones",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "5155022",
+    "name": "Acropolis",
+    "creator": "Zobros",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "15122517",
+    "name": "Lit Fuse",
+    "creator": "KrmaL",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  },
+  {
+    "id": "61137742",
+    "name": "Leyak",
+    "creator": "EnZore",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "3",
+    "sources": []
+  },
+  {
+    "id": "61529436",
+    "name": "arcane ascent",
+    "creator": "alkali",
+    "online_attempts": 0,
+    "copy_attempts": 0,
+    "total_attempts": 0,
+    "progress": 0,
+    "is_demon": true,
+    "demon_type": null,
+    "stars": "4",
+    "sources": []
+  }
+]
