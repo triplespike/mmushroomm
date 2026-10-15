@@ -860,362 +860,6 @@
       transform: translateY(0);
     }
 
-
-
-
-    /* ARCHIVE TRIGGER BUTTON */
-    .vault-archive-trigger-wrap {
-      display: flex;
-      justify-content: center;
-      margin-top: -24px;
-      margin-bottom: 56px;
-    }
-
-    .vault-archive-btn {
-      background: rgba(14, 18, 26, 0.85);
-      border: 1px solid var(--border-card);
-      border-radius: 9999px;
-      padding: 12px 28px;
-      display: inline-flex;
-      align-items: center;
-      gap: 14px;
-      color: #fff;
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 0.95rem;
-      font-weight: 700;
-      cursor: pointer;
-      backdrop-filter: blur(12px);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.1);
-      transition: all 0.25s var(--ease-out-expo);
-    }
-
-    .vault-archive-btn:hover {
-      border-color: var(--gd-red);
-      transform: translateY(-2px);
-      box-shadow: 0 12px 35px rgba(255, 42, 61, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
-    }
-
-    .vault-archive-badge {
-      font-family: 'Geist Mono', monospace;
-      font-size: 0.7rem;
-      color: var(--gd-green);
-      background: var(--gd-green-dim);
-      border: 1px solid rgba(34, 197, 94, 0.3);
-      padding: 2px 8px;
-      border-radius: 9999px;
-      font-weight: 600;
-    }
-
-    /* ARCHIVE MODAL */
-    .archive-overlay {
-      position: fixed;
-      inset: 0;
-      background: rgba(4, 6, 10, 0.82);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-      z-index: 1000;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.3s var(--ease-out-expo);
-    }
-
-    .archive-overlay.open {
-      opacity: 1;
-      pointer-events: auto;
-    }
-
-    .archive-shell {
-      width: 100%;
-      max-width: 860px;
-      max-height: 88vh;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid var(--border-card);
-      border-radius: 26px;
-      padding: 6px;
-      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
-      transform: scale(0.96) translateY(12px);
-      transition: transform 0.3s var(--ease-out-expo);
-      display: flex;
-      flex-direction: column;
-    }
-
-    .archive-overlay.open .archive-shell {
-      transform: scale(1) translateY(0);
-    }
-
-    .archive-core {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-card);
-      border-radius: 20px;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      max-height: calc(88vh - 12px);
-    }
-
-    .archive-header {
-      padding: 22px 28px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: var(--bg-surface-elevated);
-    }
-
-    .archive-eyebrow {
-      font-family: 'Geist Mono', monospace;
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--gd-red);
-      font-weight: 600;
-      margin-bottom: 2px;
-    }
-
-    .archive-title {
-      font-family: 'Pusab', 'Space Grotesk', sans-serif;
-      font-size: 1.5rem;
-      color: #fff;
-      letter-spacing: 0.02em;
-    }
-
-    .archive-close-btn {
-      width: 36px;
-      height: 36px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--border-subtle);
-      border-radius: 50%;
-      color: #fff;
-      font-size: 1rem;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.2s ease;
-    }
-
-    .archive-close-btn:hover {
-      background: rgba(255, 42, 61, 0.2);
-      border-color: var(--gd-red);
-    }
-
-    .archive-controls {
-      padding: 16px 28px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      background: rgba(14, 18, 26, 0.5);
-    }
-
-    .archive-search-box {
-      position: relative;
-      width: 100%;
-    }
-
-    .archive-search-box input {
-      width: 100%;
-      background: var(--bg-surface-high);
-      border: 1px solid var(--border-card);
-      border-radius: 12px;
-      padding: 10px 16px 10px 42px;
-      color: #fff;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-size: 0.88rem;
-      outline: none;
-      transition: border-color 0.2s ease;
-    }
-
-    .archive-search-box input:focus {
-      border-color: var(--gd-red);
-    }
-
-    .archive-search-box .search-icon {
-      position: absolute;
-      left: 14px;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 0.9rem;
-      opacity: 0.6;
-      pointer-events: none;
-    }
-
-    .archive-toolbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-
-    .archive-tabs {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-    }
-
-    .archive-tab {
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid var(--border-subtle);
-      border-radius: 8px;
-      padding: 5px 12px;
-      font-family: 'Geist Mono', monospace;
-      font-size: 0.72rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      cursor: pointer;
-      transition: all 0.2s ease;
-    }
-
-    .archive-tab:hover {
-      color: #fff;
-      background: rgba(255, 255, 255, 0.08);
-    }
-
-    .archive-tab.active {
-      color: #fff;
-      background: var(--gd-red-dim);
-      border-color: rgba(255, 42, 61, 0.4);
-    }
-
-    .archive-sort-wrap select {
-      background: var(--bg-surface-high);
-      border: 1px solid var(--border-card);
-      border-radius: 8px;
-      color: var(--text-muted);
-      font-family: 'Geist Mono', monospace;
-      font-size: 0.72rem;
-      padding: 6px 10px;
-      outline: none;
-      cursor: pointer;
-    }
-
-    .archive-list-wrap {
-      flex: 1;
-      overflow-y: auto;
-      padding: 16px 28px;
-      min-height: 240px;
-      max-height: 52vh;
-    }
-
-    .archive-list {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .archive-row {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      padding: 10px 16px;
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid var(--border-subtle);
-      border-radius: 12px;
-      transition: all 0.2s ease;
-    }
-
-    .archive-row:hover {
-      background: rgba(255, 255, 255, 0.05);
-      border-color: rgba(255, 255, 255, 0.15);
-      transform: translateX(3px);
-    }
-
-    .archive-row-icon {
-      width: 36px;
-      height: 36px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-
-    .archive-row-icon img {
-      max-width: 32px;
-      max-height: 32px;
-      object-fit: contain;
-    }
-
-    .archive-row-info {
-      flex: 1;
-      min-width: 0;
-    }
-
-    .archive-row-title-row {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin-bottom: 2px;
-    }
-
-    .archive-row-name {
-      font-family: 'Pusab', 'Space Grotesk', sans-serif;
-      font-size: 0.95rem;
-      color: #fff;
-      letter-spacing: 0.02em;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .archive-row-tier {
-      font-family: 'Geist Mono', monospace;
-      font-size: 0.65rem;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-weight: 600;
-      text-transform: uppercase;
-      flex-shrink: 0;
-    }
-
-    .archive-row-tier.insane { color: var(--gd-purple); background: var(--gd-purple-glow); border: 1px solid rgba(192, 132, 252, 0.3); }
-    .archive-row-tier.hard   { color: var(--gd-red); background: var(--gd-red-dim); border: 1px solid rgba(255, 42, 61, 0.25); }
-    .archive-row-tier.medium { color: var(--gd-gold); background: rgba(251, 191, 36, 0.1); border: 1px solid rgba(251, 191, 36, 0.25); }
-    .archive-row-tier.easy   { color: var(--gd-cyan); background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.25); }
-
-    .archive-row-meta {
-      font-family: 'Geist Mono', monospace;
-      font-size: 0.72rem;
-      color: var(--text-dim);
-      display: flex;
-      gap: 12px;
-    }
-
-    .archive-row-stat {
-      text-align: right;
-      flex-shrink: 0;
-    }
-
-    .archive-row-attempts {
-      font-family: 'Geist Mono', monospace;
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: var(--gd-gold);
-    }
-
-    .archive-row-status {
-      font-family: 'Geist Mono', monospace;
-      font-size: 0.68rem;
-      color: var(--gd-green);
-      font-weight: 600;
-    }
-
-    .archive-footer {
-      padding: 14px 28px;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-family: 'Geist Mono', monospace;
-      font-size: 0.74rem;
-      color: var(--text-dim);
-      background: var(--bg-surface-elevated);
-    }
-
     /* ACTIVE GRIND (FUTURE FUNK II) */
     .grind-shell {
       background: rgba(236, 72, 153, 0.03);
@@ -1688,13 +1332,55 @@
     <div class="section-header reveal">
       <div>
         <div class="section-eyebrow">Verified Completions</div>
-        <h2 class="section-title">Покорённые Hard Demons (13)</h2>
+        <h2 class="section-title">Покорённые Hard Demons (12)</h2>
       </div>
-      <div class="section-subtitle">Хроника ключевых побед из профиля</div>
+      <div class="section-subtitle">Полная коллекция побед из профиля и сейвов</div>
     </div>
 
-    <div class="vault-grid">
+        <div class="vault-grid">
       
+      <!-- I Dream in Pixels -->
+      <div class="vault-card-shell" style="--card-accent:#a855f7;--card-accent-dim:rgba(168,85,247,0.12);--card-accent-border:rgba(168,85,247,0.25);--card-accent-hover:rgba(168,85,247,0.35);--card-bg:url('assets/levels/i-dream-in-pixels.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">I Dream in Pixels</div>
+              <span class="vault-tag">Peak Hard</span>
+            </div>
+            <div class="vault-author">by Metalface221</div>
+            <p class="vault-note">Тяжелейший марафон в карьере — свыше 13 тысяч попыток на копиях и в онлайне.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">13 174 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Future Funk -->
+      <div class="vault-card-shell" style="--card-accent:#fb7185;--card-accent-dim:rgba(251,113,133,0.12);--card-accent-border:rgba(251,113,133,0.25);--card-accent-hover:rgba(251,113,133,0.35);--card-bg:url('assets/levels/future-funk.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">Future Funk</div>
+              <span class="vault-tag">XL Marathon</span>
+            </div>
+            <div class="vault-author">by JonathanGD</div>
+            <p class="vault-note">Первый легендарный шедевр JonathanGD. 4+ минуты концентрации и нервов.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">10 547 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Forest Temple -->
       <div class="vault-card-shell" style="--card-accent:#22c55e;--card-accent-dim:rgba(34,197,94,0.12);--card-accent-border:rgba(34,197,94,0.25);--card-accent-hover:rgba(34,197,94,0.35);--card-bg:url('assets/levels/forest-temple.jpg')">
         <div class="vault-card-core">
@@ -1710,6 +1396,27 @@
             <p class="vault-note">Тяжелейший марафон на выдержку и микро-тайминги длиною в 3+ недели.</p>
             <div class="vault-footer">
               <span class="vault-attempts">7 110 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nine Circles -->
+      <div class="vault-card-shell" style="--card-accent:#ef4444;--card-accent-dim:rgba(239,68,68,0.12);--card-accent-border:rgba(239,68,68,0.25);--card-accent-hover:rgba(239,68,68,0.35);--card-bg:url('assets/levels/nine-circles.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">Nine Circles</div>
+              <span class="vault-tag">Legendary NC</span>
+            </div>
+            <div class="vault-author">by Zobros</div>
+            <p class="vault-note">Отец жанра Nine Circles. Эпохальная проверка скилла на бешеной волне.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">5 424 attempts</span>
               <span class="vault-status-pill">100% GG</span>
             </div>
           </div>
@@ -1737,6 +1444,48 @@
         </div>
       </div>
 
+      <!-- Jawbreaker -->
+      <div class="vault-card-shell" style="--card-accent:#06b6d4;--card-accent-dim:rgba(6,182,212,0.12);--card-accent-border:rgba(6,182,212,0.25);--card-accent-hover:rgba(6,182,212,0.35);--card-bg:url('assets/levels/jawbreaker.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">Jawbreaker</div>
+              <span class="vault-tag">Nine Circles</span>
+            </div>
+            <div class="vault-author">by ZenthicAlpha</div>
+            <p class="vault-note">Скоростная и тесная синяя NC-волна с жестокими коридорами кликов.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">4 015 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fairydust -->
+      <div class="vault-card-shell" style="--card-accent:#2dd4bf;--card-accent-dim:rgba(45,212,191,0.12);--card-accent-border:rgba(45,212,191,0.25);--card-accent-hover:rgba(45,212,191,0.35);--card-bg:url('assets/levels/fairydust.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">Fairydust</div>
+              <span class="vault-tag">Nine Circles</span>
+            </div>
+            <div class="vault-author">by SuperMarioGamer</div>
+            <p class="vault-note">Знаменитая NC-волна. Строгая проверка контроля волны на максимальной скорости.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">3 953 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- CraZy -->
       <div class="vault-card-shell" style="--card-accent:#f97316;--card-accent-dim:rgba(249,115,22,0.12);--card-accent-border:rgba(249,115,22,0.25);--card-accent-hover:rgba(249,115,22,0.35);--card-bg:url('assets/levels/crazy.jpg')">
         <div class="vault-card-core">
@@ -1751,7 +1500,7 @@
             <div class="vault-author">by DavJT</div>
             <p class="vault-note">Юбилейный 40-й демон в карьере. Отличная цирковая динамика и атмосфера.</p>
             <div class="vault-footer">
-              <span class="vault-attempts">3 491 attempts</span>
+              <span class="vault-attempts">3 517 attempts</span>
               <span class="vault-status-pill">100% GG</span>
             </div>
           </div>
@@ -1772,7 +1521,7 @@
             <div class="vault-author">by LaserBlitz</div>
             <p class="vault-note">Финальный рубеж и плотная подготовка перед выходом на Insane Demon.</p>
             <div class="vault-footer">
-              <span class="vault-attempts">3 250 attempts</span>
+              <span class="vault-attempts">3 384 attempts</span>
               <span class="vault-status-pill">100% GG</span>
             </div>
           </div>
@@ -1800,36 +1549,48 @@
         </div>
       </div>
 
-      <!-- Fairydust -->
-      <div class="vault-card-shell" style="--card-accent:#2dd4bf;--card-accent-dim:rgba(45,212,191,0.12);--card-accent-border:rgba(45,212,191,0.25);--card-accent-hover:rgba(45,212,191,0.35);--card-bg:url('assets/levels/fairydust.jpg')">
+      <!-- Theory of Every v2 -->
+      <div class="vault-card-shell" style="--card-accent:#6366f1;--card-accent-dim:rgba(99,102,241,0.12);--card-accent-border:rgba(99,102,241,0.25);--card-accent-hover:rgba(99,102,241,0.35);--card-bg:url('assets/levels/toe-2-v2.jpg')">
         <div class="vault-card-core">
           <div class="vault-face-box">
             <img src="assets/gd/demon-hard.png" alt="Hard Demon">
           </div>
           <div class="vault-card-body">
             <div class="vault-card-top">
-              <div class="vault-level-name">Fairydust</div>
-              <span class="vault-tag">Nine Circles</span>
+              <div class="vault-level-name">ToE II v2</div>
+              <span class="vault-tag">Neptune v2</span>
             </div>
-            <div class="vault-author">by SuperMarioGamer</div>
-            <p class="vault-note">Знаменитая NC-волна. Строгая проверка контроля волны на максимальной скорости.</p>
+            <div class="vault-author">by IIINePtunEIII</div>
+            <p class="vault-note">Знаменитый ремейк классического ToE от Нептуна с таймингами и узкими кораблями.</p>
             <div class="vault-footer">
-              <span class="vault-attempts">~3 500 attempts</span>
+              <span class="vault-attempts">2 898 attempts</span>
               <span class="vault-status-pill">100% GG</span>
             </div>
           </div>
         </div>
       </div>
 
-    </div>
+      <!-- Forsaken Neon -->
+      <div class="vault-card-shell" style="--card-accent:#84cc16;--card-accent-dim:rgba(132,204,22,0.12);--card-accent-border:rgba(132,204,22,0.25);--card-accent-hover:rgba(132,204,22,0.35);--card-bg:url('assets/levels/forsaken-neon.jpg')">
+        <div class="vault-card-core">
+          <div class="vault-face-box">
+            <img src="assets/gd/demon-hard.png" alt="Hard Demon">
+          </div>
+          <div class="vault-card-body">
+            <div class="vault-card-top">
+              <div class="vault-level-name">Forsaken Neon</div>
+              <span class="vault-tag">Classic</span>
+            </div>
+            <div class="vault-author">by Zobros</div>
+            <p class="vault-note">Культовый неоновый демон с коварным финальным шаром и кубом.</p>
+            <div class="vault-footer">
+              <span class="vault-attempts">2 795 attempts</span>
+              <span class="vault-status-pill">100% GG</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-    <div class="vault-archive-trigger-wrap reveal">
-      <button class="vault-archive-btn" onclick="openArchiveModal()">
-        <span>📂</span>
-        <span>Архив пройденных демонов из сейва (38)</span>
-        <span class="vault-archive-badge">100% Steam Verified</span>
-      </button>
     </div>
 
     <!-- ICON KIT ARMORY (9 EQUIPPED ICONS) -->
@@ -2076,160 +1837,5 @@
         });
       }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
       document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
-    }();
-
-    /* Full Demon Archive Data & Logic */
-    var ALL_DEMONS = [{"name": "Windy Landscape", "creator": "WOOGI1411", "tier": "Insane Demon", "attempts": 6552, "id": "4957691", "badge": "assets/gd/demon-insane.png"}, {"name": "I Dream in Pixels", "creator": "Metalface221", "tier": "Hard Demon", "attempts": 13174, "id": "17606039", "badge": "assets/gd/demon-hard.png"}, {"name": "Future Funk", "creator": "JonathanGD", "tier": "Hard Demon", "attempts": 10547, "id": "44062068", "badge": "assets/gd/demon-hard.png"}, {"name": "Forest Temple", "creator": "Michigun", "tier": "Hard Demon", "attempts": 7110, "id": "11402965", "badge": "assets/gd/demon-hard.png"}, {"name": "Nine Circles", "creator": "Zobros", "tier": "Hard Demon", "attempts": 5424, "id": "4284013", "badge": "assets/gd/demon-hard.png"}, {"name": "Dance Massacre", "creator": "Hinds", "tier": "Hard Demon", "attempts": 4096, "id": "11607707", "badge": "assets/gd/demon-hard.png"}, {"name": "Jawbreaker", "creator": "ZenthicAlpha", "tier": "Hard Demon", "attempts": 4015, "id": "6939821", "badge": "assets/gd/demon-hard.png"}, {"name": "Fairydust", "creator": "SuperMarioGamer", "tier": "Hard Demon", "attempts": 3953, "id": "5310094", "badge": "assets/gd/demon-hard.png"}, {"name": "CraZy", "creator": "DavJT", "tier": "Hard Demon", "attempts": 3517, "id": "40945673", "badge": "assets/gd/demon-hard.png"}, {"name": "Ultra Drivers", "creator": "LazerBlitz", "tier": "Hard Demon", "attempts": 3384, "id": "13643591", "badge": "assets/gd/demon-hard.png"}, {"name": "White Women", "creator": "heatherhayes", "tier": "Hard Demon", "attempts": 3196, "id": "63075323", "badge": "assets/gd/demon-hard.png"}, {"name": "Theory of Every v2", "creator": "IIINePtunEIII", "tier": "Hard Demon", "attempts": 2898, "id": "3013070", "badge": "assets/gd/demon-hard.png"}, {"name": "Forsaken Neon", "creator": "Zobros", "tier": "Hard Demon", "attempts": 2795, "id": "6170521", "badge": "assets/gd/demon-hard.png"}, {"name": "Z", "creator": "Zyzyx", "tier": "Medium Demon", "attempts": 4945, "id": "18397804", "badge": "assets/gd/demon-medium.png"}, {"name": "Paracosm Circles", "creator": "N1XO", "tier": "Medium Demon", "attempts": 4726, "id": "10197026", "badge": "assets/gd/demon-medium.png"}, {"name": "HeLL", "creator": "Serponge", "tier": "Medium Demon", "attempts": 3795, "id": "25706351", "badge": "assets/gd/demon-medium.png"}, {"name": "Nantendo", "creator": "Zoroa", "tier": "Medium Demon", "attempts": 3190, "id": "57395071", "badge": "assets/gd/demon-medium.png"}, {"name": "Bloodbath Z", "creator": "Zyzyx", "tier": "Medium Demon", "attempts": 1666, "id": "21761387", "badge": "assets/gd/demon-medium.png"}, {"name": "Ultra violence", "creator": "Xender Game", "tier": "Medium Demon", "attempts": 1238, "id": "60887211", "badge": "assets/gd/demon-medium.png"}, {"name": "InsanitY", "creator": "Serponge", "tier": "Medium Demon", "attempts": 1228, "id": "26727028", "badge": "assets/gd/demon-medium.png"}, {"name": "Mechanical Showdown", "creator": "Tongii", "tier": "Medium Demon", "attempts": 681, "id": "27786218", "badge": "assets/gd/demon-medium.png"}, {"name": "B", "creator": "motleyorc", "tier": "Medium Demon", "attempts": 467, "id": "34085027", "badge": "assets/gd/demon-medium.png"}, {"name": "VeritY", "creator": "Serponge", "tier": "Medium Demon", "attempts": 405, "id": "18834999", "badge": "assets/gd/demon-medium.png"}, {"name": "Gold Temple", "creator": "Serponge", "tier": "Medium Demon", "attempts": 529, "id": "21337579", "badge": "assets/gd/demon-medium.png"}, {"name": "Deadlocked", "creator": "RobTop", "tier": "Medium Demon", "attempts": 721, "id": "20", "badge": "assets/gd/demon-medium.png"}, {"name": "Theory of Everything 2", "creator": "RobTop", "tier": "Medium Demon", "attempts": 531, "id": "18", "badge": "assets/gd/demon-medium.png"}, {"name": "Death Moon", "creator": "Caustic", "tier": "Easy Demon", "attempts": 3471, "id": "8660411", "badge": "assets/gd/demon-easy.png"}, {"name": "X", "creator": "TriAxis", "tier": "Easy Demon", "attempts": 3144, "id": "17235008", "badge": "assets/gd/demon-easy.png"}, {"name": "Problematic", "creator": "Dhafin", "tier": "Easy Demon", "attempts": 2443, "id": "7116121", "badge": "assets/gd/demon-easy.png"}, {"name": "Motion", "creator": "geomania", "tier": "Easy Demon", "attempts": 2170, "id": "18269713", "badge": "assets/gd/demon-easy.png"}, {"name": "Way of the Darkness", "creator": "IIINePtunEIII", "tier": "Easy Demon", "attempts": 1484, "id": "553327", "badge": "assets/gd/demon-easy.png"}, {"name": "Clubstep", "creator": "RobTop", "tier": "Easy Demon", "attempts": 1265, "id": "14", "badge": "assets/gd/demon-easy.png"}, {"name": "Retro Circles", "creator": "Nacho21", "tier": "Easy Demon", "attempts": 1082, "id": "14000484", "badge": "assets/gd/demon-easy.png"}, {"name": "iS", "creator": "Grenate", "tier": "Easy Demon", "attempts": 751, "id": "65765662", "badge": "assets/gd/demon-easy.png"}, {"name": "Past", "creator": "Ferdefunky", "tier": "Easy Demon", "attempts": 557, "id": "63087691", "badge": "assets/gd/demon-easy.png"}, {"name": "Speed Racer", "creator": "ZenthicAlpha", "tier": "Easy Demon", "attempts": 551, "id": "3543219", "badge": "assets/gd/demon-easy.png"}, {"name": "MAYMORY", "creator": "ItzKiba", "tier": "Easy Demon", "attempts": 436, "id": "80433444", "badge": "assets/gd/demon-easy.png"}, {"name": "The Nightmare", "creator": "Jax", "tier": "Easy Demon", "attempts": 212, "id": "13519", "badge": "assets/gd/demon-easy.png"}];
-    var currentArchiveFilter = 'all';
-
-    function openArchiveModal() {
-      var modal = document.getElementById('archive-modal');
-      modal.classList.add('open');
-      document.body.style.overflow = 'hidden';
-      renderArchive();
-    }
-
-    function closeArchiveModal() {
-      var modal = document.getElementById('archive-modal');
-      modal.classList.remove('open');
-      document.body.style.overflow = '';
-    }
-
-    function closeArchiveOnBackdrop(e) {
-      if (e.target.id === 'archive-modal') {
-        closeArchiveModal();
-      }
-    }
-
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') closeArchiveModal();
-    });
-
-    function setArchiveFilter(filter, btn) {
-      currentArchiveFilter = filter;
-      document.querySelectorAll('.archive-tab').forEach(function(t) {
-        t.classList.remove('active');
-      });
-      btn.classList.add('active');
-      renderArchive();
-    }
-
-    function renderArchive() {
-      var q = (document.getElementById('archive-search').value || '').toLowerCase().trim();
-      var sort = document.getElementById('archive-sort').value;
-      
-      var filtered = ALL_DEMONS.filter(function(d) {
-        var matchFilter = (currentArchiveFilter === 'all') || (d.tier === currentArchiveFilter);
-        var matchQuery = !q || d.name.toLowerCase().includes(q) || d.creator.toLowerCase().includes(q) || d.id.includes(q);
-        return matchFilter && matchQuery;
-      });
-
-      if (sort === 'attempts-desc') {
-        filtered.sort(function(a, b) { return b.attempts - a.attempts; });
-      } else if (sort === 'attempts-asc') {
-        filtered.sort(function(a, b) { return a.attempts - b.attempts; });
-      } else if (sort === 'name-asc') {
-        filtered.sort(function(a, b) { return a.name.localeCompare(b.name); });
-      }
-
-      var list = document.getElementById('archive-list');
-      var counter = document.getElementById('archive-counter-text');
-      counter.textContent = 'Показано ' + filtered.length + ' из ' + ALL_DEMONS.length + ' демонов';
-
-      if (filtered.length === 0) {
-        list.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-dim); font-family: monospace;">Демоны не найдены</div>';
-        return;
-      }
-
-      var tierClassMap = {
-        'Insane Demon': 'insane',
-        'Hard Demon': 'hard',
-        'Medium Demon': 'medium',
-        'Easy Demon': 'easy'
-      };
-
-      list.innerHTML = filtered.map(function(d) {
-        var tierClass = tierClassMap[d.tier] || 'hard';
-        var attFmt = d.attempts.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '\u00a0');
-        return '<div class="archive-row">' +
-          '<div class="archive-row-icon"><img src="' + d.badge + '" alt="' + d.tier + '"></div>' +
-          '<div class="archive-row-info">' +
-            '<div class="archive-row-title-row">' +
-              '<span class="archive-row-name">' + d.name + '</span>' +
-              '<span class="archive-row-tier ' + tierClass + '">' + d.tier + '</span>' +
-            '</div>' +
-            '<div class="archive-row-meta">' +
-              '<span>by ' + d.creator + '</span>' +
-              '<span>ID: ' + d.id + '</span>' +
-            '</div>' +
-          '</div>' +
-          '<div class="archive-row-stat">' +
-            '<div class="archive-row-attempts">' + attFmt + ' att</div>' +
-            '<div class="archive-row-status">100% GG</div>' +
-          '</div>' +
-        '</div>';
-      }).join('');
-    }
-
-  </script>
-
-
-  <!-- FULL DEMON ARCHIVE MODAL -->
-  <div id="archive-modal" class="archive-overlay" onclick="closeArchiveOnBackdrop(event)">
-    <div class="archive-shell">
-      <div class="archive-core">
-        
-        <!-- Header -->
-        <div class="archive-header">
-          <div>
-            <div class="archive-eyebrow">Steam Save Archive • 38/46 Demons из локального сейва</div>
-            <h3 class="archive-title">Хранилище демонов</h3>
-          </div>
-          <button class="archive-close-btn" onclick="closeArchiveModal()" title="Закрыть (Esc)">✕</button>
-        </div>
-
-        <!-- Controls: Search + Tabs + Sort -->
-        <div class="archive-controls">
-          <div class="archive-search-box">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="archive-search" placeholder="Поиск по названию или автору..." oninput="renderArchive()">
-          </div>
-
-          <div class="archive-toolbar">
-            <div class="archive-tabs" id="archive-tabs">
-              <button class="archive-tab active" data-filter="all" onclick="setArchiveFilter('all', this)">Все (38)</button>
-              <button class="archive-tab" data-filter="Insane Demon" onclick="setArchiveFilter('Insane Demon', this)">Insane (1)</button>
-              <button class="archive-tab" data-filter="Hard Demon" onclick="setArchiveFilter('Hard Demon', this)">Hard (12)</button>
-              <button class="archive-tab" data-filter="Medium Demon" onclick="setArchiveFilter('Medium Demon', this)">Medium (13)</button>
-              <button class="archive-tab" data-filter="Easy Demon" onclick="setArchiveFilter('Easy Demon', this)">Easy (12)</button>
-            </div>
-
-            <div class="archive-sort-wrap">
-              <select id="archive-sort" onchange="renderArchive()">
-                <option value="attempts-desc">По попыткам ↓</option>
-                <option value="attempts-asc">По попыткам ↑</option>
-                <option value="name-asc">По названию A-Z</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
-        <!-- Demon List Container -->
-        <div class="archive-list-wrap">
-          <div class="archive-list" id="archive-list">
-            <!-- Dynamically populated -->
-          </div>
-        </div>
-
-        <!-- Footer -->
-        <div class="archive-footer">
-          <span id="archive-counter-text">Показано 38 из 38 демонов</span>
-          <span>Включает попытки из практики и копий</span>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-</body>
+    }();</script></body>
 </html>
