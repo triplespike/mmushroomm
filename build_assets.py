@@ -3,9 +3,10 @@ import plistlib
 import io
 import os
 import re
+from pathlib import Path
 from PIL import Image
 
-out_dir = '/home/spike/projects/mmushroomm-gd/assets/icons'
+out_dir = str(Path(__file__).resolve().parent / 'assets' / 'icons')
 os.makedirs(out_dir, exist_ok=True)
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'}
 
