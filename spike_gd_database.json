@@ -2476,14 +2476,16 @@
     "id": "59626284",
     "name": "Future Funk II",
     "creator": "JonathanGD",
-    "online_attempts": 0,
-    "copy_attempts": 6002,
-    "total_attempts": 6002,
-    "progress": 0,
+    "online_attempts": 2114,
+    "copy_attempts": 8248,
+    "total_attempts": 10362,
+    "progress": 100,
     "is_demon": true,
-    "demon_type": null,
-    "stars": "4",
+    "demon_type": "Insane Demon",
+    "stars": "10",
     "sources": [
+      "online (2114)",
+      "ff2 startpos 2 (8248)",
       "Future Funk II 2 (6002)"
     ]
   },
