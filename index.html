@@ -1017,6 +1017,150 @@
       letter-spacing: 0.05em;
     }
 
+    /* CAREER ROADMAP (ROAD TO FIRST EXTREME) */
+    .roadmap-shell {
+      margin-bottom: 56px;
+    }
+
+    .roadmap-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    @media (max-width: 900px) {
+      .roadmap-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+    }
+
+    .roadmap-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-subtle);
+      border-radius: 20px;
+      padding: 5px;
+      transition: transform 0.3s var(--ease-out-expo), border-color 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+
+    .roadmap-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--card-accent, #38bdf8);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4), 0 0 20px var(--card-glow, rgba(56, 189, 248, 0.15));
+    }
+
+    .roadmap-core {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-card);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.05);
+    }
+
+    .roadmap-core::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 85% 15%, var(--card-glow, rgba(56, 189, 248, 0.12)) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .roadmap-core > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .roadmap-step-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .roadmap-step-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Geist Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: var(--card-badge-bg, rgba(56, 189, 248, 0.12));
+      border: 1px solid var(--card-badge-border, rgba(56, 189, 248, 0.28));
+      color: var(--card-accent, #38bdf8);
+    }
+
+    .roadmap-pulse-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--card-accent, #38bdf8);
+      box-shadow: 0 0 8px var(--card-accent, #38bdf8);
+      animation: pulse-dot 1.5s infinite ease-in-out;
+    }
+
+    .roadmap-demon-badge {
+      width: 38px;
+      height: 38px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.6));
+    }
+
+    .roadmap-title {
+      font-family: 'Pusab', 'Space Grotesk', sans-serif;
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 4px;
+      letter-spacing: 0.02em;
+    }
+
+    .roadmap-meta {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .roadmap-desc {
+      font-size: 0.86rem;
+      color: #94a3b8;
+      line-height: 1.55;
+      margin-bottom: 18px;
+      flex-grow: 1;
+    }
+
+    .roadmap-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      font-family: 'Geist Mono', monospace;
+    }
+
+    .roadmap-footer-label {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .roadmap-footer-val {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
     /* ARMORY INTERACTIVE EQUIP */
     .armory-card-shell {
       cursor: pointer;
@@ -1322,6 +1466,94 @@
         <div class="hardest-stat-box">
           <div class="hardest-attempts-val"><span class="counter" data-target="6374">6 374</span></div>
           <div class="hardest-attempts-sub">Попытки (4 дня)</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CAREER ROADMAP: ROAD TO FIRST EXTREME -->
+    <div class="section-header reveal">
+      <div>
+        <div class="section-eyebrow" style="color: #38bdf8;">Career Roadmap • Next Objectives</div>
+        <h2 class="section-title">Дорога к первому Extreme Demon</h2>
+      </div>
+      <div class="section-subtitle">План прокачки экстремального скилла волны и скорости перед штурмом высшей лиги</div>
+    </div>
+
+    <div class="roadmap-shell reveal">
+      <div class="roadmap-grid">
+
+        <!-- STEP 1: PLASMA PULSE -->
+        <div class="roadmap-card" style="--card-accent: #06b6d4; --card-glow: rgba(6, 182, 212, 0.2); --card-badge-bg: rgba(6, 182, 212, 0.12); --card-badge-border: rgba(6, 182, 212, 0.35);">
+          <div class="roadmap-core">
+            <div class="roadmap-step-header">
+              <div class="roadmap-step-pill">
+                <span class="roadmap-pulse-dot"></span>
+                <span>01 • Текущий грайнд</span>
+              </div>
+              <img src="assets/gd/demon-insane.png" alt="Insane Demon" class="roadmap-demon-badge">
+            </div>
+
+            <div class="roadmap-title">Plasma Pulse</div>
+            <div class="roadmap-meta">Insane Demon by Giron • ID: 8148420</div>
+
+            <p class="roadmap-desc">
+              Экстремальный фокус на волне и узких коридорах. Идеальный разгон клик-рейта и мышечной памяти перед второй частью.
+            </p>
+
+            <div class="roadmap-footer">
+              <span class="roadmap-footer-label">В сейве GD</span>
+              <span class="roadmap-footer-val" style="color: #22d3ee;"><span class="counter" data-target="475">475</span> попыток</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 2: PLASMA PULSE II -->
+        <div class="roadmap-card" style="--card-accent: #a855f7; --card-glow: rgba(168, 85, 247, 0.2); --card-badge-bg: rgba(168, 85, 247, 0.12); --card-badge-border: rgba(168, 85, 247, 0.35);">
+          <div class="roadmap-core">
+            <div class="roadmap-step-header">
+              <div class="roadmap-step-pill" style="color: #c084fc;">
+                <span>02 • В очереди</span>
+              </div>
+              <img src="assets/gd/demon-insane.png" alt="Insane Demon" class="roadmap-demon-badge">
+            </div>
+
+            <div class="roadmap-title">Plasma Pulse II</div>
+            <div class="roadmap-meta">Insane Demon by Giron &amp; xSmokes • ID: 13457056</div>
+
+            <p class="roadmap-desc">
+              Культовый 2.0 сиквел. Финальная проверка механического скилла, резких таймингов корабля и ультра-скоростной дуал-волны.
+            </p>
+
+            <div class="roadmap-footer">
+              <span class="roadmap-footer-label">Сложность</span>
+              <span class="roadmap-footer-val" style="color: #c084fc;">High Insane</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 3: FIRST EXTREME DEMON -->
+        <div class="roadmap-card" style="--card-accent: #ef4444; --card-glow: rgba(239, 68, 68, 0.22); --card-badge-bg: rgba(239, 68, 68, 0.12); --card-badge-border: rgba(239, 68, 68, 0.35);">
+          <div class="roadmap-core">
+            <div class="roadmap-step-header">
+              <div class="roadmap-step-pill" style="color: #f87171;">
+                <span>03 • Главная цель</span>
+              </div>
+              <img src="assets/gd/demon-extreme.png" alt="Extreme Demon" class="roadmap-demon-badge">
+            </div>
+
+            <div class="roadmap-title">First Extreme</div>
+            <div class="roadmap-meta">Выбор претендента • Category: Extreme Demon</div>
+
+            <p class="roadmap-desc">
+              Исторический рубеж карьеры. Вход в элитный клуб экстрим-демон слееров после набитого скилла на серии Plasma Pulse.
+            </p>
+
+            <div class="roadmap-footer">
+              <span class="roadmap-footer-label">Статус</span>
+              <span class="roadmap-footer-val" style="color: #f87171;">The Pinnacle 🎯</span>
+            </div>
+          </div>
         </div>
 
       </div>
